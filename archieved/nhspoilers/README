@@ -1,0 +1,35 @@
+*-343.txt
+A collection of spoilers for NetHack 3.4
+Compiled by Dylan O'Donnell, Kevin Hugo, et al.
+Maintained by Dylan O'Donnell <psmith@spod-central.org>
+Archive date: 2012-04-06
+
+This tarfile is created automatically; please let me know if it's
+doing something broken. Also let me know if anything about the
+spoilers themselves seems wrong, inaccurate, or otherwise worthy of
+comment; however, if it's after 2012-04-06 (which it will be, unless
+you just downloaded this collection today), you may want to check
+whether a fix has already been made to the latest version of the
+spoilers, which will always live at:
+
+http://www.spod-central.org/~psmith/nh/
+
+
+LICENSE
+
+Those spoilers originally compiled by Kevin Hugo, by Dylan O'Donnell,
+or by Boudewijn Waijers, are subject to the following conditions:
+
+# Redistribution, copying, and editing of these spoilers, with or
+# without modification, are permitted provided that the following
+# conditions are met:
+# 
+# 1. The original contributors to any spoiler must continue to be credited.
+# 2. Any modifications to the spoiler must be acknowledged and credited.
+
+Those originally compiled by anybody else are subject to whatever
+license that anybody else placed on them. In most cases this is
+going to be an implicit license which looks reasonably like the
+one above, but if you're going to do anything particularly rash with
+them you may care to check with the originator first (if you can
+find them).

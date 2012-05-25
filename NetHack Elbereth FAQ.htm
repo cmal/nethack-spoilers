@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator"
+content="HTML Tidy for Windows (vers 1st May 2002 [Terry's build]), see www.w3.org" />
+<meta http-equiv="Content-Type"
+content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>NetHack Elbereth FAQ</title>
+<link rel="StyleSheet" href="nh.css" type="text/css"
+media="screen, foo" />
+<link rel="StyleSheet" href="nhns.css" type="text/css"
+media="screen" />
+</head>
+<body>
+<h1>The Elbereth FAQ</h1>
+
+<p>By <a href="mailto:knepveu@steelypips.org">Kate Nepveu</a>
+<br />
+Version 1.1; created April 16, 2001; last updated April 30, 2002 to
+clarify ways of engraving.</p>
+
+<h2>Contents</h2>
+
+<ul>
+<li><a href="#whatis">What's Elbereth?</a></li>
+
+<li><a href="#respect">What monsters will respect
+Elbereth?</a></li>
+
+<li><a href="#engrave">What's the best way to engrave
+Elbereth?</a></li>
+</ul>
+
+<h3><a id="whatis" name="whatis">What's Elbereth (a.k.a. the
+E-word)?</a></h3>
+
+<p>According to the Guidebook, in its discussion of the E)ngrave
+command,</p>
+
+<blockquote>
+<p>"Engraving the word "Elbereth" will cause most monsters to not
+attack you hand-to-hand (but if you attack, you will rub it out);
+this is often useful to give yourself a breather. (This feature may
+be compiled out of the game, so your version might not have
+it.)"</p>
+</blockquote>
+
+<p>(You can tell if Elbereth is complied into your version of the
+game with #version or Meta-v.)</p>
+
+<p>Thus, Elbereth can help protect you from attack. It is also a
+popular way to protect stashes of equipment in the dungeon, even
+those in containers, since gelatinous cubes will eat any container
+except an ice box. Note that something (an item, you) must be on
+the space where Elbereth is engraved for monsters to stay off the
+space. Elbereth on an empty space has <strong>no effect</strong>.
+Also, the effect of Elbereth is case-insensitive, but you exercise
+wisdom if you engrave it thus: "Elbereth". (You can also bury
+Elbereth in the middle of some other letters and it still works:
+"fooElberethfoo".)</p>
+
+<p>An identical effect can be obtained by dropping a <a
+href="341/scrl-341.html#scare_monster">scroll of scare monster</a>.
+In 3.4.0, you will be told that "&lt;affected monster&gt; turns to
+flee!" when you drop the scroll or finish engraving Elbereth.
+(However, scrolls of scare monster are a poor choice to protect
+your stash, since they disintegrate once picked up enough.)</p>
+
+<p>[Elbereth comes from J.R.R. Tolkien's writings set in
+Middle-Earth, particularly <cite>The Lord of the Rings</cite> and
+<cite>The Silmarillion</cite>; it was the Elves' name for a goddess
+they particularly revered. A song in her praise proves to have bad
+effects on Sauron's minions in <cite>The Lord of the Rings</cite>.
+See also "Elbereth" under the specify command, "/".]</p>
+
+<h3><a id="respect" name="respect">What monsters will respect
+Elbereth (that is, not attack me)?</a></h3>
+
+<p>It's easier to say what <strong>doesn't</strong> respect
+Elbereth. The following will attack you anyway:</p>
+
+<ul class="space">
+<li><em class="underline">Any monster represented by an @</em>.
+Generally, these are humans and elves; however, it also includes
+shapechangers (werecreatures, chameleons, doppelgangers, and
+sandestins) while in @ form. 
+<p>Note that although K (Keystone Kops, Kop Sergeants, etc.) are
+considered human for purposes of cannibalism and sacrifice, they do
+respect Elbereth.</p>
+</li>
+
+<li><em
+style="text-decoration: underline; font-style: normal">Shopkeepers,
+guards, lawful high priests (only found on the Astral Plane), and
+the Wizard of Yendor</em>. These are listed separately in the code
+because they will not respect Elbereth even if polymorphed into
+something else. (Note that you're very unlikely to be able to
+polymorph the Wizard, but just in case...)</li>
+
+<li><em class="underline">Any monster that is blind</em>. However,
+it has to be a very special kind of blindness. Just lacking eyes
+isn't enough&#8212;thus gelatinous cubes <strong>do</strong>
+respect Elbereth, even though if you polymorph into one you can't
+see anything, and they <strong>won't</strong> eat your stash if
+it's <a href="#engrave">properly engraved</a>. Instead, it has to
+be blindness caused by an external source: blindfold, lightning
+flash, potion of blindness, cream pies, or the blinding effects of
+being attacked by exploding yellow lights, dust vortices, ravens,
+cobras, or Archons.</li>
+
+<li>Some specific quasi-human (and tough) monsters: <em
+style="text-decoration: underline; font-style: normal">all A,
+minotaurs, and the Riders on the Astral Plane</em>.</li>
+
+<li>A special case: teleporting monsters will still teleport to the
+up staircase, even if you have Elbereth engraved and an item on
+top.</li>
+</ul>
+
+<p>In addition, peaceful monsters will not respect Elbereth.
+Obviously, they won't attack you, but they will walk over the
+space&#8212;not picking anything up, but possibly eroding the
+Elbereth protecting your stash. (Protecting that space from
+peaceful monsters is left as an exercise for the reader.) How do
+you tell if a monster is peaceful? Use the "/" command to identify
+the monster (and you'll see, for instance: "o an orc (peaceful hill
+orc)").</p>
+
+<h3><a id="engrave" name="engrave">What's the best way to engrave
+Elbereth?</a></h3>
+
+<p>Well, first, it's best to engrave when you've got all your wits
+and senses about you. That is, you have the following chances of
+messing up <strong>each letter</strong> if you are: blind (1/9),
+confused (1/12), stunned (1/4), or hallucinating (1/1). So don't
+count on engraving Elbereth correctly if you're impaired.</p>
+
+<p>You can, of course, engrave in a number of different ways. The
+relevant qualities are summed up below, and then each method is
+detailed.</p>
+
+<p><strong>Duration</strong>:</p>
+
+<ul>
+<li>Text burned into the floor will not erode from being stood on
+or walked over.</li>
+
+<li>Text engraved in the floor lasts a while, but will erode over
+time.</li>
+
+<li>Text written in the dust doesn't last long at all.</li>
+</ul>
+
+<p><strong>Speed</strong>:</p>
+
+<ul>
+<li>Fast methods of engraving are writing in the dust or using a
+wand or athame. You can write up to ten (10) letters in one turn
+with a fast method.</li>
+
+<li>Slow methods of engraving are with edged weapons and hard gems;
+they take one turn per letter.</li>
+</ul>
+
+<p>The importance of duration should be obvious. Speed is important
+because while you are engraving, anything can and will attack you:
+you don't get Elbereth's protection until you're finished
+engraving. What's more, the attack won't interrupt your
+engraving&#8212;once you start engraving, you can't protect
+yourself until you are done. For this reason, if you are under
+attack, you should <em>only</em> engrave by a fast method. In
+addition, if you are under attack and want to add an Elbereth to a
+square that already has one, only add one; if you add more than
+one, you can be attacked before you finish; think of it as
+obscuring the monsters' view for too long.</p>
+
+<p><strong>Methods</strong></p>
+
+<ul class="space">
+<li><em
+style="text-decoration: underline; font-style: normal">Burning into
+the ground</em>. Text written with a wand of fire or lightning
+(with at least one charge) will be burnt into the ground, and will
+not erode. (It will vanish if you engrave over it with a wand of
+cold; you can also remove it by engraving in the ground; see
+below). Because this is done with wands, it is a fast method.</li>
+
+<li><em
+style="text-decoration: underline; font-style: normal">Engraving in
+the ground</em>. This can be done with a wand of digging, a hard
+gemstone (diamond, ruby, jacinth, sapphire, black opal, emerald,
+aquamarine, topaz), a ring with a hard gemstone (diamond ring,
+etc.), a steel ring, or an edged weapon. You can also melt into ice
+with a wand of fire, which erodes like an engraving. Note that the
+speed depends on the method; wands and athames take one turn to
+write Elbereth, the other methods here take one turn per letter. 
+<ul>
+<li>Engraving with any edged weapon <em>other</em> than a
+non-cursed athame (including Magicbane) will dull the weapon,
+reducing its enchantment. In addition, if you engrave with a +0
+weapon and type "Elbereth" at the prompt, "What do you want to
+engrave in the floor here?," you will get the following message:
+"Your [weapon] gets dull. You only are able to write "Elberet"
+--More-- You cannot write any more." 
+<p>Thus, if you need to write Elbereth with just one +0 non-athame,
+first engrave "Elb" and then add "ereth" to the engraving. Odd, but
+true, because of how engraving is treated: engrave 1-3 letters and
+lose one enchantment from a weapon; 4-5, lose 2; and 6-7, lose 3. A
+-3 weapon is too dull to engrave with. (Of course, you could also
+use two +0 weapons, or one weapon at +1 or greater, if
+practical.)</p>
+</li>
+</ul>
+</li>
+
+<li><em
+style="text-decoration: underline; font-style: normal">Writing in
+the dust</em>. This can be with your finger, a soft gem, a ring
+without a hard gem, any charged wand except digging, fire, or
+lightning, and so forth. Note that you have a 1/25 chance of
+screwing up each letter if you're engraving in the dust. While this
+only takes one turn, any movement&#8212;like fighting&#8212;on your
+part will smudge it out. Even staying put will erode it, since
+no-one stands <em>perfectly</em> still. In other words, if you
+write in the dust, you can't expect it to last very long. However,
+the higher your dexterity is, the more slowly it will smudge. You
+can also avoid smudging completely by levitation over the writing
+in the dust.</li>
+</ul>
+
+<p>You can also scrawl on the floor in blood, if you write with
+your fingers while polymorphed into any V or &amp; (same chance of
+screwing up letters as if writing in the dust), or scribble on the
+floor with a magic marker. The first is unlikely to come up all
+that often, and the second is unwise because usually you have much
+better uses for magic marker charges. However, they're there if you
+need them.</p>
+
+<h3>Credits</h3>
+
+<p>Thanks to all of rec.games.roguelike.nethack, and in particular
+to Zack Weinberg, Shaman, Ross Presser, Robert R. Schneck, Keiran,
+Topi Linkala, Esque, and Dylan O'Donnell.</p>
+
+<hr />
+<p><a href="./">Up to the NetHack Page</a></p>
+</body>
+</html>
+

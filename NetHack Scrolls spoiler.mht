@@ -1,0 +1,1736 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: NetHack Scrolls spoiler
+Date: Fri, 13 Apr 2012 00:34:19 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CD190D.29F05D20"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6157
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CD190D.29F05D20
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/scrl-343.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den xmlns=3D"http://www.w3.org/1999/xhtml" =
+xml:lang=3D"en"><HEAD><TITLE>NetHack Scrolls spoiler</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702">
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META content=3Dtext/css http-equiv=3DContent-Style-Type><LINK =
+rel=3DStyleSheet=20
+type=3Dtext/css href=3D"http://www.steelypips.org/nethack/343/nh.css"=20
+media=3D"screen, foo"><LINK rel=3DStyleSheet type=3Dtext/css=20
+href=3D"http://www.steelypips.org/nethack/343/nhns.css" =
+media=3Dscreen></HEAD>
+<BODY>
+<H1>Scrolls and their effects in NetHack 3.4</H1>
+<P>scrl-343.html Last edited 2005-06-24 for NetHack 3.4.3 <BR>Compiled =
+for 3.2.2=20
+by Kevin Hugo. <BR>Updated for 3.4.3 by Dylan O'Donnell &lt;<A=20
+href=3D"mailto:psmith@spod-central.org">psmith@spod-central.org</A>&gt;. =
+
+<BR>Converted to HTML by Kate Nepveu &lt;<A=20
+href=3D"mailto:knepveu@steelypips.org">knepveu@steelypips.org</A>&gt;; =
+HTML=20
+re-synchronized 2005-08-29 by <A =
+href=3D"mailto:dfabulich@warpmail.net">Dan=20
+Fabulich</A>.</P>
+<H2>Contents</H2>
+<UL>
+  <LI><A =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#table">Table =
+
+  of scrolls</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#effects">Scro=
+ll=20
+  messages and effects</A> </LI></UL>
+<TABLE border=3D1=20
+summary=3D"Scrolls: cost, weight, probability, marker charges, =
+appearance"=20
+cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH><A id=3Dtable name=3Dtable></A>SCROLL</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#mrkr">MRKR</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#mail">mail</A=
+></TD>
+    <TD>$0</TD>
+    <TD>5</TD>
+    <TD>0</TD>
+    <TD>2</TD>
+    <TD align=3Dleft>stamped</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#identify">ide=
+ntify</A></TD>
+    <TD>20</TD>
+    <TD>5</TD>
+    <TD>180</TD>
+    <TD>14</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#light">light<=
+/A></TD>
+    <TD>50</TD>
+    <TD>5</TD>
+    <TD>90</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#blank_paper">=
+blank=20
+      paper</A></TD>
+    <TD>60</TD>
+    <TD>5</TD>
+    <TD>28</TD>
+    <TD>0</TD>
+    <TD align=3Dleft>unlabeled</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#enchant_weapo=
+n">enchant=20
+      weapon</A></TD>
+    <TD>60</TD>
+    <TD>5</TD>
+    <TD>80</TD>
+    <TD>16</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#enchant_armor=
+">enchant=20
+      armor</A></TD>
+    <TD>80</TD>
+    <TD>5</TD>
+    <TD>63</TD>
+    <TD>16</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#remove_curse"=
+>remove=20
+      curse</A></TD>
+    <TD>80</TD>
+    <TD>5</TD>
+    <TD>65</TD>
+    <TD>16</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#confuse_monst=
+er">confuse=20
+      monster</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>53</TD>
+    <TD>12</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#destroy_armor=
+">destroy=20
+      armor</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>45</TD>
+    <TD>10</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#fire">fire</A=
+></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>30</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#food_detectio=
+n">food=20
+      detection</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>25</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#gold_detectio=
+n">gold=20
+      detection</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>33</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#magic_mapping=
+">magic=20
+      mapping</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>45</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#scare_monster=
+">scare=20
+      monster</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>35</TD>
+    <TD>20</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#teleportation=
+">teleportation</A></TD>
+    <TD>100</TD>
+    <TD>5</TD>
+    <TD>55</TD>
+    <TD>20</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#amnesia">amne=
+sia</A></TD>
+    <TD>200</TD>
+    <TD>5</TD>
+    <TD>35</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#create_monste=
+r">create=20
+      monster</A></TD>
+    <TD>200</TD>
+    <TD>5</TD>
+    <TD>45</TD>
+    <TD>10</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#earth">earth<=
+/A></TD>
+    <TD>200</TD>
+    <TD>5</TD>
+    <TD>18</TD>
+    <TD>8</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#taming">tamin=
+g</A></TD>
+    <TD>200</TD>
+    <TD>5</TD>
+    <TD>15</TD>
+    <TD>20</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#charging">cha=
+rging</A></TD>
+    <TD>300</TD>
+    <TD>5</TD>
+    <TD>15</TD>
+    <TD>16</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#genocide">gen=
+ocide</A></TD>
+    <TD>300</TD>
+    <TD>5</TD>
+    <TD>15</TD>
+    <TD>30</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#punishment">p=
+unishment</A></TD>
+    <TD>300</TD>
+    <TD>5</TD>
+    <TD>15</TD>
+    <TD>10</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dleft><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/scrl-343.html#stinking_clou=
+d">stinking=20
+      cloud</A></TD>
+    <TD>300</TD>
+    <TD>5</TD>
+    <TD>15</TD>
+    <TD>20</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE>
+<P><A id=3Dcost name=3Dcost></A><A id=3Dwgt name=3Dwgt></A>Scrolls are =
+listed above by=20
+increasing price, then alphabetically. The COST field denotes the base =
+price of=20
+each item. WGT specifies the weight (100 zorkmids weighs 1).</P>
+<P><A id=3Dprob name=3Dprob></A>Scrolls comprise 16% of all =
+randomly-generated items=20
+in the main dungeon, 18% in containers, 22% on the Rogue level, and 1% =
+in hell.=20
+PROB is the relative probability of each subtype. Scrolls appear 1/8 =
+cursed, 3/4=20
+uncursed, and 1/8 blessed.</P>
+<P>Scrolls of mail exist only if this ability was compiled into your =
+copy of the=20
+game, and if you have the "mail" option enabled. When new email arrives =
+(or=20
+every 1999+d(3000) turns if playing on an Amiga or DOS platform), the =
+"mail=20
+daemon" will deliver a scroll of mail. All of these scrolls are =
+considered=20
+uncursed, and they cannot be changed into another object in any way.</P>
+<P><A id=3Dmrkr name=3Dmrkr></A>MRKR specifies the value used to =
+determine the=20
+number of magic marker charges needed to write a scroll of that type, or =
+zero if=20
+it cannot be written. The actual number of charges used will be a random =
+amount=20
+from MRKR/2 to MRKR-1; if your marker has fewer than MRKR/2 charges, you =
+will be=20
+unable to attempt to write the scroll.</P>
+<P>Wizards have a base 1/3 chance of writing an unknown scroll, and all =
+other=20
+classes have a base 1/15 chance; your chance generally improves with =
+higher=20
+luck, to a maximum of about 98% for Wizards and 32% for other classes. =
+You can=20
+only write scrolls on blank paper, which can be made by getting any =
+scroll wet=20
+(except mail) or cancelling any scroll (except mail). Failure to write =
+the=20
+scroll will cause the blank scroll to be used up. You can select =
+non-blank=20
+scrolls to write on, but this will abuse your wisdom and you will be =
+told, "That=20
+scroll is not blank!"</P>
+<P><A id=3Dappearance name=3Dappearance></A>Some types of scrolls have =
+the same=20
+APPEARANCE when unidentified. The appearance of the remaining scrolls =
+are are=20
+randomized from the following descriptions:</P>
+<UL>
+  <LI>ZELGO MER=20
+  <LI>JUYED AWK YACC=20
+  <LI>NR 9=20
+  <LI>XIXAXA XOXAXA XUXAXA=20
+  <LI>PRATYAVAYAH=20
+  <LI>DAIYEN FOOELS=20
+  <LI>LEP GEX VEN ZEA=20
+  <LI>PRIRUTSENIE=20
+  <LI>ELBIB YLOH=20
+  <LI>VERR YED HORRE=20
+  <LI>VENZAR BORGAVVE=20
+  <LI>THARR=20
+  <LI>YUM YUM=20
+  <LI>KERNOD WEL=20
+  <LI>ELAM EBOW=20
+  <LI>DUAM XNAHT=20
+  <LI>ANDOVA BEGARIN=20
+  <LI>KIRJE=20
+  <LI>VE FORBRYDERNE=20
+  <LI>HACKEM MUCHE=20
+  <LI>VELOX NEB=20
+  <LI>FOOBIE BLETCH=20
+  <LI>TEMOV=20
+  <LI>GARVEN DEH=20
+  <LI>READ ME </LI></UL>
+<H2><A id=3Deffects name=3Deffects></A>Scroll messages and effects</H2>
+<P>(Adapted from the spoiler "scrolls", by Ian Burrell.)</P>
+<P>In order to read a scroll, you must either be unblind or know the =
+APPEARANCE=20
+of the scroll. When a scroll is read, it will be used up and disappear =
+(except=20
+blank paper). The effects depend on the blessing of the scroll. =
+Non-cursed means=20
+either blessed or uncursed. If you are confused while reading the =
+scroll, "you=20
+mispronounce the magic words" and may obtain a different effect. Some =
+scrolls=20
+have a different message for "beginners"; a character is considered a =
+beginner=20
+until accumulating 2000 score points (1000 for Wizards).</P>
+<H3><A id=3Damnesia name=3Damnesia></A>amnesia</H3>
+<P>All Sokoban maps are immune from the effects of amnesia.</P>
+<P><STRONG>cursed or you are NOT confused</STRONG> <BR>You forget all of =
+the=20
+current level.</P>
+<P><STRONG>non-cursed and confused</STRONG> <BR>You forget 6/7 of the =
+current=20
+level.</P>
+<P>In addition, if <STRONG>uncursed or cursed</STRONG> <BR>You forget =
+any number=20
+of spells.</P>
+<P>In every case, <BR>You have a 1/3 chance of forgetting up to 25% of =
+all known=20
+level maps and a separate 1/3 chance of forgetting up to 25% of object=20
+identities. <BR>You forget all traps on your current level, forget =
+whether you=20
+are punished, and abuse your wisdom.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your mind releases itself from mundane concerns." (hallucinating) =
+<BR>"As=20
+  your mind turns inward on itself, you forget everything else." (your=20
+  character's name is Maud); <BR>"Who was that Maud person anyway?" =
+(otherwise,=20
+  50%) <BR>"Thinking of Maud you forget everything else." (otherwise,=20
+50%)</P></BLOCKQUOTE>
+<P>The scroll is (re-)identified.</P>
+<H3><A id=3Dblank_paper name=3Dblank_paper>blank paper</A></H3>
+<P>You identify the scroll; it will not be used up. <BR></P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This scroll seems to be blank." (unblind) <BR>"You don't remember =
+there=20
+  being any magic words on this scroll." (blind)</P></BLOCKQUOTE>
+<H3><A id=3Dcharging name=3Dcharging>charging</A></H3>
+<P><STRONG>blessed</STRONG> <BR>You identify the scroll and select an =
+item.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This is a charging scroll."</P></BLOCKQUOTE>
+<P>If the item can't be charged, no effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a feeling of loss."</P></BLOCKQUOTE>
+<P>Otherwise, the item is charged by a larger amount (see <A=20
+href=3D"http://www.steelypips.org/nethack/343/wan1-343.html">wan1-343.htm=
+l</A>, <A=20
+href=3D"http://www.steelypips.org/nethack/343/tool-343.html">tool-343.htm=
+l</A>, or=20
+<A =
+href=3D"http://www.steelypips.org/nethack/343/ring-343.html">ring-343.htm=
+l</A>=20
+for specifics). Wands and rings may explode (see below).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;ring&gt; spins clockwise for a moment." <BR>"Your =
+&lt;item&gt;=20
+  glows blue for a moment." (unblind) <BR>"Your &lt;item&gt; vibrates =
+for a=20
+  moment." (blind)</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>You identify the scroll and select an =
+item.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This is a charging scroll."</P></BLOCKQUOTE>
+<P>If the item can't be charged, no effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a feeling of loss."</P></BLOCKQUOTE>
+<P>Otherwise, the item is charged by a smaller amount (see <A=20
+href=3D"http://www.steelypips.org/nethack/343/wan1-343.html">wan1-343.htm=
+l</A>, <A=20
+href=3D"http://www.steelypips.org/nethack/343/tool-343.html">tool-343.htm=
+l</A>, or=20
+<A =
+href=3D"http://www.steelypips.org/nethack/343/ring-343.html">ring-343.htm=
+l</A>=20
+for specifics). Wands and rings may explode (see below).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;ring&gt; spins clockwise for a moment." <BR>"Your =
+&lt;tool&gt;=20
+  glows white for a moment." (unblind) <BR>"Your &lt;wand of wishing&gt; =
+glows=20
+  blue for a moment." (unblind) <BR>"Your &lt;item&gt; glows briefly." =
+(unblind)=20
+  <BR>"Your &lt;item&gt; vibrates briefly." (blind)</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>You identify the scroll and select an =
+item.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This is a charging scroll."</P></BLOCKQUOTE>
+<P>If it is a ring, it loses 1 to 2 points of enchantment and may =
+explode (see=20
+below).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;ring&gt; spins counterclockwise for a =
+moment."</P></BLOCKQUOTE>
+<P>For other items, if it is blessed or has zero charges, no effect =
+other than=20
+incrementing the recharged counter (although wands may explode; see =
+below).=20
+<BLOCKQUOTE class=3Ddl>
+  <P>"Nothing happens."</P></BLOCKQUOTE>
+<P>Otherwise, it is set to zero charges. Wands may explode (see =
+below).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;item&gt; vibrates briefly."</P></BLOCKQUOTE>
+<P><STRONG>confused</STRONG> <BR>If your energy is at maximum, you gain =
+5d4=20
+maximum energy. <BR>Your energy is increased to maximum.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel charged up!"</P></BLOCKQUOTE>
+<P>Previously-recharged wands have a chance of exploding if you attempt =
+to=20
+charge them further; wands of wishing will always explode, others have a =
+chance=20
+depending on the number of times (x) recharged: (x^3)/(7^3).</P>
+<TABLE border=3D1 summary=3D"Chances of exploding a ring while charging" =
+
+cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH>PREV RCHG</TH>
+    <TH>%EXPLODE</TH>
+    <TH>%CUMULATIVE</TH></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>0</TD>
+    <TD>0.00</TD>
+    <TD>0.00</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>1</TD>
+    <TD>0.29</TD>
+    <TD>0.29</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>2</TD>
+    <TD>2.33</TD>
+    <TD>2.62</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>3</TD>
+    <TD>7.87</TD>
+    <TD>10.28</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>4</TD>
+    <TD>18.66</TD>
+    <TD>27.02</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>5</TD>
+    <TD>36.44</TD>
+    <TD>53.62</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>6</TD>
+    <TD>62.97</TD>
+    <TD>82.83</TD></TR>
+  <TR align=3Dright>
+    <TD align=3Dmiddle>7</TD>
+    <TD>100.00</TD>
+    <TD>100.00</TD></TR></TBODY></TABLE>
+<P>When a ring with a positive enchantment is charged, it has an =
+(enchantment=20
+before) in 7 chance of exploding. Rings with enchantments of &lt;=3D -5 =
+or &gt;=3D=20
++7 will always explode when charged.</P>
+<H3><A id=3Dconfuse_monster name=3Dconfuse_monster></A>confuse =
+monster</H3>
+<P><STRONG>blessed</STRONG> <BR>You will confuse the next 2 to 9 (more) =
+monsters=20
+you hit. (Once this number reaches 40, each blessed scroll will only =
+allow=20
+confusion of one additional monster.)</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;hands&gt; glow a brilliant red." (unblind) <BR>"Your=20
+  &lt;hands&gt; glow an even more brilliant red." (unblind, more) =
+<BR>"Your=20
+  &lt;hands&gt; tingle very sharply." (blind) <BR>"Your &lt;hands&gt; =
+tingle=20
+  even more sharply." (blind, more)</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>You will confuse the next (one more) =
+monster=20
+you hit.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;hands&gt; begin to glow red." (unblind) <BR>"Your =
+&lt;hands&gt;=20
+  begin to glow red even more." (unblind, more) <BR>"Your &lt;hands&gt; =
+begin to=20
+  tingle." (blind) <BR>"Your &lt;hands&gt; begin to tingle even more." =
+(blind,=20
+  more)</P></BLOCKQUOTE>
+<P><STRONG>cursed or polymorphed into non-@</STRONG> <BR>You are =
+confused for 1=20
+to 100 (more) turns.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel confused."</P></BLOCKQUOTE>
+<P><STRONG>blessed and confused</STRONG> <BR>You are no longer =
+confused.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A faint glow surrounds your &lt;head&gt;." (unblind) <BR>"A faint =
+buzz=20
+  surrounds your &lt;head&gt;." (blind)</P></BLOCKQUOTE>
+<P><STRONG>uncursed and confused</STRONG> <BR>You are confused for 1 to =
+100=20
+(more) turns.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;hands&gt; begin to glow purple." (unblind) <BR>"Your=20
+  &lt;hands&gt; begin to tingle." (blind)</P></BLOCKQUOTE>
+<H3><A id=3Dcreate_monster name=3Dcreate_monster></A>create monster</H3>
+<P><STRONG>blessed</STRONG> <BR>Creates one monster beside you.</P>
+<P><STRONG>uncursed</STRONG> <BR>Creates one (72/73 chance) or 2 to 5 =
+(1/73=20
+chance) monsters around you.</P>
+<P><STRONG>cursed</STRONG> <BR>Creates 13 (72/73 chance) or 14 to 17 =
+(1/73=20
+chance) monsters around you.</P>
+<P><STRONG>confused</STRONG> <BR>Creates 13 (72/73 chance) or 14 to 17 =
+(1/73=20
+chance) acid blobs around you.</P>
+<P>No messages. The scroll is identified if the new monsters are =
+seen.</P>
+<H3><A id=3Ddestroy_armor name=3Ddestroy_armor></A>destroy armor</H3>
+<P><STRONG>not wearing armor</STRONG> <BR>Abuses your strength and=20
+constitution.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a strange feeling for a moment, then it passes." =
+(beginner not=20
+  hallucinating) <BR>"You have a normal feeling for a moment, then it =
+passes."=20
+  (beginner hallucinating) <BR>"Your bones itch." (confused) <BR>"Your =
+skin=20
+  itches." (not confused)</P></BLOCKQUOTE>
+<P><STRONG>blessed or uncursed</STRONG> <BR>Destroys one random worn =
+piece of=20
+armor.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your cloak crumbles and turns to dust!" <BR>"Your armor turns to =
+dust and=20
+  falls to the &lt;floor&gt;!" <BR>"Your shirt crumbles into tiny =
+threads and=20
+  falls apart!" <BR>"Your helmet turns to dust and is blown away!" =
+<BR>"Your=20
+  gloves vanish!" <BR>"Your boots disintegrate!" <BR>"Your shield =
+crumbles=20
+  away!"</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>Selects one random worn piece of armor. =
+If the=20
+armor is not cursed, then same effect as an uncursed scroll. Otherwise, =
+you are=20
+stunned for 10 to 19 (more) turns and your armor loses one enchantment =
+if it is=20
+-6 or greater.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; vibrates."</P></BLOCKQUOTE>
+<P><STRONG>non-cursed and confused</STRONG> <BR>Removes =
+(rust|fire)proofing from=20
+one random worn piece of armor.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; glows purple for a moment." (unblind) <BR>"Your =
+
+  &lt;armor&gt; vibrates for a moment." (blind)</P></BLOCKQUOTE>
+<P><STRONG>cursed and confused</STRONG> <BR>Makes one random worn armor=20
+(rust|fire)proof.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; glows purple for a moment." (unblind) <BR>"Your =
+
+  &lt;armor&gt; vibrates for a moment." (blind)</P></BLOCKQUOTE>
+<P>Does NOT repair damage.</P>
+<H3><A id=3Dearth name=3Dearth></A>earth</H3>
+<P><STRONG>blessed</STRONG> <BR>Creates a boulder on each open square =
+around=20
+you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles around you!"</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>Creates a boulder on the same square as =
+you and=20
+on each open square around you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles above you!"</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>Creates a boulder on the same square as =
+you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles above you!"</P></BLOCKQUOTE>
+<P><STRONG>blessed and confused</STRONG> <BR>Creates 2-6 rocks on each =
+open=20
+square around you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles around you!"</P></BLOCKQUOTE>
+<P><STRONG>uncursed and confused</STRONG> <BR>Creates 2-6 rocks on the =
+same=20
+square as you and each open square around you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles above you!"</P></BLOCKQUOTE>
+<P><STRONG>cursed and confused</STRONG> <BR>Creates 2-6 rocks on the =
+same square=20
+as you.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The ceiling rumbles above you!"</P></BLOCKQUOTE>
+<P>No effect on the Rogue level or in the endgame outside the Plane of =
+Earth. In=20
+Sokoban, there is a -1 penalty to Luck. Boulders do d20 damage, rocks d3 =
+each;=20
+damage is capped at 2 if the monster/player underneath is wearing a =
+metal=20
+helmet. Only solid, non-amorphous, non-phasing creatures are =
+damaged.</P>
+<H3><A id=3Denchant_armor name=3Denchant_armor></A>enchant armor</H3>
+<P><STRONG>not wearing armor</STRONG> <BR>Exercises (abuses if cursed) =
+strength=20
+and constitution.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a strange feeling for a moment, then it passes." =
+(beginner not=20
+  hallucinating) <BR>"You have a normal feeling for a moment, then it =
+passes."=20
+  (beginner hallucinating) <BR>"Your skin glows then fades." (unblind) =
+<BR>"Your=20
+  skin feels warm for a moment." (blind)</P></BLOCKQUOTE>
+<P><STRONG>blessed</STRONG> <BR>One random worn armor is selected. =
+<BR>If=20
+enchantment already above +3 (+5 for elven armor or a wizard's =
+cornuthaum),=20
+there is a 1 in (current enchantment) chance that it WON'T be vaporized. =
+If it=20
+is vaporized:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; violently glows silver for a while, then =
+evaporates."=20
+  (no "silver" if shield of reflection or silver dragon scales or scale=20
+mail)</P></BLOCKQUOTE>
+<P>Dragon scales become dragon scale mail, gain one enchantment, and are =
+
+blessed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;scales&gt; merges and hardens!"</P></BLOCKQUOTE>
+<P>Other armor can gain several enchantments:</P>
+<TABLE border=3D1 summary=3D"Enchanting armor" cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>Current enchantment</TH>
+    <TD>-3 to -1</TD>
+    <TD>+0 to +2</TD>
+    <TD>+3 to +5</TD>
+    <TD>+6 to +8</TD>
+    <TD>+9 or more</TD></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>Additional possible</TH>
+    <TD>1 to 4</TD>
+    <TD>1 to 3</TD>
+    <TD>1 to 2</TD>
+    <TD>1</TD>
+    <TD>0 to 1</TD></TR></TBODY></TABLE>
+<BLOCKQUOTE>
+  <P>"Your &lt;armor&gt; glows silver for a moment." (+1) <BR>"Your=20
+  &lt;armor&gt; glows silver for a while." (more than +1) <BR>"Your=20
+  &lt;armor&gt; violently glows silver for a moment." (+0) (no "silver" =
+if=20
+  shield of reflection or silver dragon scales or scale =
+mail)</P></BLOCKQUOTE>
+<P>The armor is blessed.</P>
+<P>If your armor is enchanted beyond the safe limit, it may vibrate:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; suddenly vibrates unexpectedly." (unblind) =
+<BR>"Your=20
+  &lt;armor&gt; suddenly vibrates again." (blind)</P></BLOCKQUOTE>
+<P>NOTE: If you were blind, then "glows silver" is replaced by =
+"vibrates".</P>
+<P><STRONG>uncursed</STRONG> <BR>One random worn armor is selected.</P>
+<P>If enchantment already above +3 (+5 for elven armor or a wizard's=20
+cornuthaum), there is a 1 in (current enchantment) that it WON'T be =
+vaporized.=20
+If it is vaporized:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; violently glows silver for a while, then =
+evaporates."=20
+  (no "silver" if shield of reflection or silver dragon scales or scale=20
+mail)</P></BLOCKQUOTE>
+<P>Dragon scales become dragon scale mail.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;scales&gt; merges and hardens!"</P></BLOCKQUOTE>
+<P>Other armor gains +1 enchantment (only a chance if already +9 or =
+more).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; glows silver for a moment." (+1) <BR>"Your=20
+  &lt;armor&gt; violently glows silver for a moment." (+0) (no "silver" =
+if=20
+  shield of reflection or silver dragon scales or scale =
+mail)</P></BLOCKQUOTE>
+<P>If cursed, the armour is uncursed.</P>
+<P>If your armor is enchanted beyond the safe limit, it may vibrate:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; suddenly vibrates unexpectedly." (unblind) =
+<BR>"Your=20
+  &lt;armor&gt; suddenly vibrates again." (blind)</P></BLOCKQUOTE>
+<P>NOTE: If you were blind, then "glows silver" is replaced by =
+"vibrates".</P>
+<P><STRONG>cursed</STRONG> <BR>One random worn armor is selected. <BR>If =
+
+enchantment already below -3 (-5 for elven armor or a wizard's =
+cornuthaum),=20
+there is a 1 in (current absolute enchantment) that it WON'T be =
+vaporized. If it=20
+is vaporized:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; violently glows black for a while, then =
+evaporates."=20
+  (no "black" if black dragon scales or scale mail)</P></BLOCKQUOTE>
+<P>Otherwise armor loses one enchantment and is cursed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; glows black for a moment." (unblind) (no =
+"black" if=20
+  black dragon scales or scale mail) <BR>"Your &lt;armor&gt; vibrates =
+for a=20
+  moment." (blind)</P></BLOCKQUOTE>
+<P><STRONG>non-cursed and confused</STRONG> <BR>Makes one random worn =
+armor=20
+(rust|fire)proof.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; is covered by a shimmering golden =
+shield/layer!"=20
+  (unblind) <BR>"Your &lt;armor&gt; feels warm for a moment."=20
+(blind)</P></BLOCKQUOTE>
+<P>If that armor had damage, it is repaired.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; looks as good as new!" (unblind) <BR>"Your=20
+  &lt;armor&gt; feels as good as new!" (blind)</P></BLOCKQUOTE>
+<P><STRONG>cursed and confused</STRONG> <BR>Removes (rust|fire)proofing =
+from one=20
+random worn piece of armor.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;armor&gt; is covered by a mottled black glow!" (unblind)=20
+  <BR>"Your &lt;armor&gt; feels warm for a moment." =
+(blind)</P></BLOCKQUOTE>
+<P>If the armor's enchantment was affected, then you identify the scroll =
+as=20
+well.</P>
+<H3><A id=3Denchant_weapon name=3Denchant_weapon></A>enchant weapon</H3>
+<P><STRONG>not wielding a weapon</STRONG> <BR>Exercises (abuses if =
+cursed)=20
+dexterity.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a strange feeling for a moment, then it passes." =
+(beginner not=20
+  hallucinating) <BR>"You have a normal feeling for a moment, then it =
+passes."=20
+  (beginner hallucinating) <BR>"Your &lt;hands&gt; twitch." (non-cursed) =
+
+  <BR>"Your &lt;hands&gt; itch." (cursed)</P></BLOCKQUOTE>
+<P><STRONG>blessed</STRONG> <BR>If your weapon was cursed, it is made =
+uncursed.=20
+<BR>If your weapon is a worm tooth, it becomes an unfixed crysknife.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your weapon seems sharper now."</P></BLOCKQUOTE>
+<P>Otherwise, weapons currently enchanted above +5 have a 2/3 chance of =
+being=20
+destroyed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; violently glows blue for a while and then =
+evaporates."=20
+  (unblind) <BR>"Your &lt;weapon&gt; evaporates." =
+(blind)</P></BLOCKQUOTE>
+<P>Other weapons can gain several enchantments:</P>
+<TABLE border=3D1 summary=3D"Enchanting weapons" cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>Current enchantment</TH>
+    <TD>-3 to -1</TD>
+    <TD>+0 to +2</TD>
+    <TD>+3 to +5</TD>
+    <TD>+6 to +8</TD>
+    <TD>+9 or more</TD></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>Additional possible</TH>
+    <TD>1 to 4</TD>
+    <TD>1 to 3</TD>
+    <TD>1 to 2</TD>
+    <TD>1</TD>
+    <TD>0 to 1</TD></TR></TBODY></TABLE>
+<BLOCKQUOTE>
+  <P>"Your &lt;weapon&gt; glows blue for a moment." (+1 unblind) =
+<BR>"Your=20
+  &lt;weapon&gt; glows blue for a while." (more than +1 unblind) =
+<BR>"Your=20
+  &lt;weapon&gt; violently glows blue for a while." (+0 =
+unblind)</P></BLOCKQUOTE>
+<P>Magicbane warns you if it is enchanted to +0 or above.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your right &lt;hand&gt; flinches!" (2 or more added and now at +2 =
+or more)=20
+  <BR>"Your right &lt;hand&gt; itches!" (otherwise)</P></BLOCKQUOTE>
+<P>Elven weapons, artifacts, and sometimes other weapons vibrate when =
+they are=20
+enchanted above +5.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; suddenly vibrates =
+unexpectedly."</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>If your weapon was cursed, it is made =
+uncursed.=20
+<BR>If your weapon is a worm tooth, it becomes an unfixed crysknife.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your weapon seems sharper now."</P></BLOCKQUOTE>
+<P>Otherwise, weapons currently enchanted above +5 have a 2/3 chance of =
+being=20
+destroyed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; violently glows blue for a while and then =
+evaporates."=20
+  (unblind) <BR>"Your &lt;weapon&gt; evaporates." =
+(blind)</P></BLOCKQUOTE>
+<P>Other weapons gain +1 enchantment (only a chance if already +9 or =
+more).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; glows blue for a moment." (+1 unblind) =
+<BR>"Your=20
+  &lt;weapon&gt; violently glows blue for a while." (+0 =
+unblind)</P></BLOCKQUOTE>
+<P>Magicbane warns you if it is enchanted to +0 or above.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your right &lt;hand&gt; itches!"</P></BLOCKQUOTE>
+<P>Elven weapons, artifacts, and sometimes other weapons vibrate when =
+they are=20
+enchanted above +5.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; suddenly vibrates =
+unexpectedly."</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>If your weapon is a crysknife, it becomes =
+a worm=20
+tooth.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your weapon seems duller now."</P></BLOCKQUOTE>
+<P>Artifacts (except Sting and Orcrist) will resist.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; faintly glows black." =
+(unblind)</P></BLOCKQUOTE>
+<P>Otherwise, weapons currently enchanted below -5 have a 2/3 chance of =
+being=20
+destroyed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; violently glows blue for a while and then =
+evaporates."=20
+  (unblind) <BR>"Your &lt;weapon&gt; evaporates." =
+(blind)</P></BLOCKQUOTE>
+<P>Other weapons lose one enchantment.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; glows black for a moment." =
+(unblind)</P></BLOCKQUOTE>
+<P>Elven weapons, artifacts, and sometimes other weapons vibrate if they =
+are=20
+still enchanted above +5.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; suddenly vibrates =
+unexpectedly."</P></BLOCKQUOTE>
+<P><STRONG>non-cursed and confused</STRONG> <BR>(Rust|Fire)proofs your =
+weapon.=20
+If it is a crysknife, it becomes fixed.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; is covered by a shimmering golden shield!" =
+(unblind)=20
+  <BR>"Your weapon feels warm for a moment." (blind)</P></BLOCKQUOTE>
+<P>If it had damage, it is repaired.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; looks as good as new!" (unblind) <BR>"Your=20
+  &lt;weapon&gt; feels as good as new!" (blind)</P></BLOCKQUOTE>
+<P><STRONG>cursed and confused</STRONG> <BR>Removes (rust|fire)proofing =
+from=20
+your weapon.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;weapon&gt; is covered by a mottled purple glow!" =
+(unblind)=20
+  <BR>"Your weapon feels warm for a moment." (blind)</P></BLOCKQUOTE>
+<P>NOTE: The grammar of the above messages is changed if more than one =
+item is=20
+wielded.</P>
+<H3><A id=3Dfire name=3Dfire></A>fire</H3>
+<P><STRONG>blessed</STRONG> <BR>An explosion of fire occurs, causing 3 =
+to 5 hit=20
+points of damage to you and surrounding monsters if not fire resistant. =
+Armor,=20
+scrolls, and spellbooks may burn; potions may explode; slime is burnt =
+away.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The water around you vaporizes violently!" (under water) <BR>"The =
+scroll=20
+  erupts in a tower of flame!" (otherwise)</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>An explosion of fire occurs, causing 2 =
+to 3 hit=20
+points of damage to you and surrounding monsters if not fire resistant. =
+Armor,=20
+scrolls, and spellbooks may burn; potions may explode; slime is burnt =
+away.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The water around you vaporizes violently!" (under water) <BR>"The =
+scroll=20
+  erupts in a tower of flame!" (otherwise)</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>An explosion of fire occurs. causing 1 to =
+2 hit=20
+points of damage to you and surrounding monsters if not fire resistant. =
+Armor,=20
+scrolls, and spellbooks may burn; potions may explode; slime is burnt =
+away.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The water around you vaporizes violently!" (under water) <BR>"The =
+scroll=20
+  erupts in a tower of flame!" (otherwise)</P></BLOCKQUOTE>
+<P><STRONG>confused</STRONG> <BR>If fire-resistant,</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Oh, look, what a pretty fire in your &lt;hands&gt;." (unblind) =
+<BR>"You=20
+  feel a pleasant warmth in your &lt;hands&gt;." =
+(blind)</P></BLOCKQUOTE>
+<P>Otherwise, you lose 1 hit point.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The scroll catches fire and you burn your =
+&lt;hands&gt;."</P></BLOCKQUOTE>
+<P>You always identify the scroll.</P>
+<H3><A id=3Dfood_detection name=3Dfood_detection></A>food detection</H3>
+<P><STRONG>blessed</STRONG> <BR>You acquire the food appraisal =
+intrinsic, which=20
+will warn you when you next (only) eat food that could be dangerous or =
+would=20
+break a currently-unbroken conduct.</P>
+<P>If no food on that level,</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You sense a lack of food nearby." (saw some before, already have =
+food=20
+  appraisal.) <BR>"You sense a lack of food nearby. Your &lt;nose&gt; =
+starts to=20
+  tingle." (saw some before, no food appraisal.) <BR>"You have a strange =
+feeling=20
+  for a moment, then it passes." (beginner hallucinating) <BR>"You have =
+a normal=20
+  feeling for a moment, then it passes." (beginner hallucinating) =
+<BR>"Your=20
+  &lt;nose&gt; twitches then starts to tingle." (non-beginner, no =
+current food=20
+  appraisal) <BR>"Your &lt;nose&gt; twitches." (non-beginner with food =
+appraisal=20
+  already)</P></BLOCKQUOTE>
+<P>Otherwise, you detect comestibles on that level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You smell food nearby. Your &lt;nose&gt; starts to tingle." (just =
+on your=20
+  square, no current food appraisal) <BR>"You smell food nearby." (just =
+on your=20
+  square, already have food appraisal) <BR>"Your &lt;nose&gt; starts to =
+tingle=20
+  and you smell food." (elsewhere, no current food appraisal) <BR>"Your=20
+  &lt;nose&gt; continues to tingle and you smell food." (elsewhere, =
+already have=20
+  food appraisal)</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>If no food on that level,</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You sense a lack of food nearby." (saw some before) <BR>"You have =
+a=20
+  strange feeling for a moment, then it passes." (beginner not =
+hallucinating)=20
+  <BR>"You have a normal feeling for a moment, then it passes." =
+(beginner=20
+  hallucinating) <BR>"Your nose twitches." (otherwise)</P></BLOCKQUOTE>
+<P>Otherwise, you detect comestibles on that level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You smell food nearby." (if just on your square) <BR>"Your nose =
+tingles=20
+  and you smell food." (if elsewhere)</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>If no potions on that level,</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You sense a lack of food nearby." (saw some before) <BR>"You have =
+a=20
+  strange feeling for a moment, then it passes." (beginner not =
+hallucinating)=20
+  <BR>"You have a normal feeling for a moment, then it passes." =
+(beginner=20
+  hallucinating) <BR>"Your nose twitches." (otherwise)</P></BLOCKQUOTE>
+<P>Otherwise, you detect potions on that level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You smell food nearby." (if just on your square) <BR>"Your nose =
+tingles=20
+  and you smell food." (if elsewhere)</P></BLOCKQUOTE>
+<P><STRONG>confused</STRONG> <BR>If no potions on that level,</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You sense a lack of something nearby." (saw some before) <BR>"You =
+have a=20
+  strange feeling for a moment, then it passes." (beginner not =
+hallucinating)=20
+  <BR>"You have a normal feeling for a moment, then it passes." =
+(beginner=20
+  hallucinating) <BR>"Your nose twitches." (otherwise)</P></BLOCKQUOTE>
+<P>Otherwise, you detect potions on that level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You smell something nearby." (if just on your square) <BR>"Your =
+nose=20
+  tingles and you smell something." (if elsewhere)</P></BLOCKQUOTE>
+<H3><A id=3Dgenocide name=3Dgenocide></A>genocide</H3>
+<P>Always identified when read.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have found a scroll of genocide!"</P></BLOCKQUOTE>
+<P><STRONG>blessed (even if confused)</STRONG> <BR>You can genocide an =
+entire=20
+class of monsters (all species with the same symbol); or you can choose=20
+'none'.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"What class of monsters do you wish to genocide?" <BR>"Wiped out =
+all=20
+  &lt;monster&gt;." <BR>"You feel dead inside." (@ or your own race =
+while=20
+  polymorped) </P></BLOCKQUOTE>
+<P>NOTE: Not all species can be genocided.</P>
+<P><STRONG>uncursed</STRONG> <BR>You can genocide one species; or you =
+can choose=20
+'none'.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"What monster do you want to genocide? [type the name]" <BR>"Wiped =
+out all=20
+  &lt;monster&gt;." <BR>"You feel dead inside." (your own role or race =
+while=20
+  polymorphed) <BR>If hallucinating, the message will claim "Wiped out =
+all=20
+  &lt;your role or current form&gt;" but you are unaffected (unless you =
+actually=20
+  did choose your role, race, or current form). </P></BLOCKQUOTE>
+<P>NOTE: Not all species can be genocided.</P>
+<P><STRONG>cursed</STRONG> <BR>You are surrounded by 4 to 6 monsters of =
+one=20
+species, if they are not already genocided or extinct (more than 9 =
+Nazgul, 3=20
+erinyes, or 120 other already created). If you choose 'none', a monster =
+species=20
+will be selected at random. The monsters will carry nothing.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"What monster do you want to genocide? [type the name]" <BR>"Sent =
+in some=20
+  &lt;monster&gt;."</P></BLOCKQUOTE>
+<P><STRONG>confused and uncursed</STRONG> <BR>You genocide your own =
+role.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Wiped out all &lt;role&gt;." <BR>"Wiped out all &lt;current =
+form&gt;."=20
+  (hallucinating and polymorphed) <BR>"You feel dead inside." (while=20
+  polymorphed)</P></BLOCKQUOTE>
+<P><STRONG>confused and cursed</STRONG> <BR>You are surrounded by 4 to 6 =
+
+monsters of your own role. The monsters will carry nothing.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Sent in some &lt;role&gt;." <BR>"Sent in some &lt;current =
+form&gt;."=20
+  (hallucinating and polymorphed) </P></BLOCKQUOTE>
+<H3><A id=3Dgold_detection name=3Dgold_detection></A>gold detection</H3>
+<P><STRONG>blessed or uncursed</STRONG> <BR>If no gold, gold objects (if =
+scroll=20
+blessed), or gold golems on that level outside your inventory, no =
+effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a strange feeling for a moment, then it passes." =
+(beginner not=20
+  hallucinating) <BR>"You have a normal feeling for a moment, then it =
+passes."=20
+  (beginner hallucinating) <BR>"You feel like a million zorkmids!" =
+(polymorphed=20
+  into gold golem) <BR>"You feel worried about your future financial =
+situation."=20
+  (carrying gold coins) <BR>"You feel materially poor." (not carrying =
+gold=20
+  coins)</P></BLOCKQUOTE>
+<P>Otherwise, you detect gold (and, if scroll blessed, gold objects), =
+even=20
+buried or in containers, and gold golems on that level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You notice some gold between your &lt;feet&gt;." (if just on your =
+square)=20
+  <BR>"You feel very greedy, and sense gold!" (if =
+elsewhere)</P></BLOCKQUOTE>
+<P><STRONG>cursed or confused</STRONG> <BR>If no traps on that level, no =
+
+effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have a strange feeling for a moment, then it passes." =
+(beginner not=20
+  hallucinating) <BR>"You have a normal feeling for a moment, then it =
+passes."=20
+  (beginner hallucinating) <BR>"Your &lt;toes&gt; stop itching."=20
+(otherwise)</P></BLOCKQUOTE>
+<P>Otherwise, you detect traps (spaces with the ^ symbol) on that level. =
+<BR>If=20
+the scroll is cursed, the traps are shown as gold ($ symbol); if you are =
+
+hallucinating, they will appear as random objects; otherwise, they =
+appear as=20
+known traps. The vibrating square is NOT shown.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your &lt;toes&gt; itch." (if just on your square) <BR>"You feel =
+very=20
+  greedy" (cursed) <BR>"You feel entrapped." =
+(otherwise)</P></BLOCKQUOTE>
+<H3><A id=3Didentify name=3Didentify></A>identify</H3>
+<P>Always identified when read.</P>
+<P><STRONG>blessed</STRONG> <BR>You can identify items from your =
+inventory:=20
+<BR></P>
+<TABLE border=3D1 summary=3D"Chances of identifying items with a blessed =
+scroll"=20
+cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft># items:</TH>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD>3</TD>
+    <TD>4</TD>
+    <TD>all</TD></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>chance:</TH>
+    <TD>1/5</TD>
+    <TD>1/5</TD>
+    <TD>1/5</TD>
+    <TD>1/5</TD>
+    <TD>1/5</TD></TR></TBODY></TABLE>
+<P>If your luck is positive, then 1 item becomes 2 items.</P>
+<BLOCKQUOTE>
+  <P>"This is an identify scroll."</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>You can identify items from your =
+inventory:=20
+<BR></P>
+<TABLE border=3D1 summary=3D"Chances of identifying items with an =
+uncursed scroll"=20
+cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft># items:</TH>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD>3</TD>
+    <TD>4</TD>
+    <TD>all</TD></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>chance:</TH>
+    <TD>21/25</TD>
+    <TD>1/25</TD>
+    <TD>1/25</TD>
+    <TD>1/25</TD>
+    <TD>1/25</TD></TR></TBODY></TABLE>
+<BLOCKQUOTE>
+  <P>"This is an identify scroll."</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>You can identify one item from your=20
+inventory.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This is an identify scroll."</P></BLOCKQUOTE>
+<P><STRONG>confused</STRONG> <BR>You merely identify the scroll.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You identify this as an identify scroll."</P></BLOCKQUOTE>
+<H3><A id=3Dlight name=3Dlight></A>light</H3>
+<P><STRONG>Swallowed, engulfed, or underwater</STRONG> <BR>No area is =
+actually=20
+lit or darkened.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"It seems even darker in here than before." (cursed or confused)=20
+  <BR>"&lt;monster&gt;'s &lt;stomach&gt; is lit. " (animal) =
+<BR>"&lt;monster&gt;=20
+  shines briefly." (whirly monster) <BR>"&lt;monster&gt; glistens." =
+(other=20
+  swallowed)</P></BLOCKQUOTE>
+<P><STRONG>blessed</STRONG> <BR>An area of radius 9 is lit.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A lit field surrounds you!"</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>An area of radius 5 is lit.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A lit field surrounds you!"</P></BLOCKQUOTE>
+<P><STRONG>cursed or confused</STRONG> <BR>An area of radius 5 (9 if =
+blessed) is=20
+darkened. <BR>Light sources in your inventory (other than Sunsword) are =
+snuffed=20
+out.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Suddenly, the only light left comes from Sunsword!" (if wielding =
+it)=20
+  <BR>"You are surrounded by darkness!" (otherwise)</P></BLOCKQUOTE>
+<P>If unblind, you identify the scroll.</P>
+<P>If on the Rogue level, rooms are lit/darkened instead of areas.</P>
+<H3><A id=3Dmagic_mapping name=3Dmagic_mapping></A>magic mapping</H3>
+<P><STRONG>non-mappable level</STRONG> <BR>You become confused for 1 to =
+30=20
+(more) turns.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Your mind is filled with crazy lines!" <BR>"Wow! Modern art."=20
+  (hallucinating) <BR>"Your &lt;head&gt; spins in bewilderment." (not=20
+  hallucinating)</P></BLOCKQUOTE>
+<P><STRONG>blessed or uncursed</STRONG> <BR>You identify the scroll and =
+map the=20
+entire level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A map coalesces in your mind!"</P></BLOCKQUOTE>
+<P>Blessed scrolls also reveal secret doors.</P>
+<P><STRONG>cursed or confused</STRONG> <BR>You identify the scroll and =
+map 1/7=20
+of the squares of the level.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A map coalesces in your mind!" <BR>"Unfortunately, you can't grasp =
+the=20
+  details." (cursed but not confused)</P></BLOCKQUOTE>
+<H3><A id=3Dmail name=3Dmail></A>mail</H3>
+<P>Note: You must have the MAIL option compiled into your program and =
+the 'mail'=20
+option enabled. The scroll is identified when read.</P>
+<P>If found in a bones pile:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"This seems to be junk mail addressed to the finder of the Eye of=20
+Larn."</P></BLOCKQUOTE>
+<P>On a system capable of checking new mail, is only generated when mail =
+is=20
+received:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>You read your new mail with the program specified in the MAILREADER =
+
+  environment variable.</P></BLOCKQUOTE>
+<P>On an Amiga or DOS platform, is generated every 1999+d(3000) turns =
+(the first=20
+time, after 99+d(2000) turns. The message is randomly chosen:</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"It reads: "Please disregard previous letter."" <BR>"It reads: =
+"Welcome to=20
+  NetHack."" <BR>"It reads: "Report bugs to =
+&lt;devteam@nethack.org&gt;.""=20
+  <BR>"It reads: "Only Amiga makes it possible."" (Amiga) <BR>"It reads: =
+"CATS=20
+  have all the answers."" (Amiga) <BR>"Unfortunately you cannot see what =
+it=20
+  says." (blind)</P></BLOCKQUOTE>
+<P>The scroll cannot be converted to another type by any means.</P>
+<H3><A id=3Dpunishment name=3Dpunishment></A>punishment</H3>
+<P>Always identified when read.</P>
+<P><STRONG>blessed or confused</STRONG> <BR>No effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel guilty."</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG></P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You are being punished for your misbehavior!"</P></BLOCKQUOTE>
+<P>If you were already being punished, the ball's weight increases by =
+160. Else=20
+if polymorphed into an amorphous, swirly, or non-solid creature, a heavy =
+iron=20
+ball drops to the floor.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A ball and chain appears, then falls away."</P></BLOCKQUOTE>
+<P>Otherwise, you are chained to a heavy iron ball and chain.</P>
+<P><STRONG>cursed</STRONG></P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You are being punished for your misbehavior!"</P></BLOCKQUOTE>
+<P>If you were already being punished, the ball's weight increases by =
+320. Else=20
+if polymorphed into an amorphous, swirly, or non-solid creature, a heavy =
+iron=20
+ball drops to the floor.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A ball and chain appears, then falls away."</P></BLOCKQUOTE>
+<P>Otherwise, you are chained to a heavy iron ball and chain.</P>
+<H3><A id=3Dremove_curse name=3Dremove_curse></A>remove curse</H3>
+<P><STRONG>blessed</STRONG> <BR>All cursed items in your main inventory =
+become=20
+uncursed. <BR>Removes a ball and chain (punishment).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel like someone is helping you." (not hallucinating) =
+<BR>"You feel=20
+  in touch with the Universal Oneness." (hallucinating)</P></BLOCKQUOTE>
+<P><STRONG>uncursed</STRONG> <BR>All cursed worn or wielded items =
+(weapons,=20
+armor, amulets, rings, and eyewear), stackable quivered items (or, if =
+wielding a=20
+sling, gems or stones), applied leashes, and loadstones in main =
+inventory are=20
+uncursed. <BR>Removes a ball and chain (punishment).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel like someone is helping you." (not hallucinating) =
+<BR>"You feel=20
+  in touch with the Universal Oneness." (hallucinating)</P></BLOCKQUOTE>
+<P><STRONG>cursed</STRONG> <BR>Removes a ball and chain =
+(punishment).</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel like someone is helping you." (not hallucinating) =
+<BR>"You feel=20
+  in touch with the Universal Oneness." (hallucinating) <BR>"The scroll=20
+  disintegrates."</P></BLOCKQUOTE>
+<P><STRONG>blessed and confused</STRONG> <BR>All UNCURSED items have a =
+25%=20
+chance of being blessed and a 25% chance of being cursed. <BR>You are =
+NOT=20
+unpunished.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel like you need some help." (not hallucinating) <BR>"You =
+feel the=20
+  power of the Force against you!" (hallucinating)</P></BLOCKQUOTE>
+<P><STRONG>uncursed and confused</STRONG> <BR>All UNCURSED worn or =
+wielded items=20
+(weapons, armor, amulets, rings, and eyewear), stackable quivered =
+weapons (or,=20
+if wielding a sling, gems or stones), applied leashes, and loadstones in =
+main=20
+inventory have a 25% chance of being blessed and a 25% chance of being =
+cursed.=20
+<BR>You are NOT unpunished.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel like you need some help." (not hallucinating) <BR>"You =
+feel the=20
+  power of the Force against you!" (hallucinating)</P></BLOCKQUOTE>
+<P><STRONG>cursed and confused</STRONG> <BR>No effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The scroll disintegrates." <BR>"You feel like you need some help." =
+(not=20
+  hallucinating) "You feel the power of the Force against you!"=20
+  (hallucinating)</P></BLOCKQUOTE>
+<H3><A id=3Dscare_monster name=3Dscare_monster></A>scare monster</H3>
+<P><STRONG>dropped</STRONG> <BR>Most monsters will become frightened =
+when=20
+adjacent to the square, just like engraving Elbereth. Blind or peaceful=20
+creatures, minotaurs, shopkeepers, guards, the Wizard, the endgame =
+Riders, and=20
+all A and @ are unaffected.</P>
+<P><STRONG>picked up</STRONG> <BR>If blessed, becomes uncursed. =
+Otherwise, if=20
+cursed or dropped before, the scroll(s) disintegrate.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"The scroll turns to dust as you pick it up." (one) <BR>"The =
+scrolls turn=20
+  to dust as you pick them up." (several)</P></BLOCKQUOTE>
+<P><STRONG>blessed or uncursed</STRONG> <BR>You will cause monsters =
+within your=20
+visual range to flee. Some monsters can resist the effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You hear maniacal laughter close by." (something was affected) =
+<BR>"You=20
+  hear maniacal laughter in the distance." (no creature =
+affected)</P></BLOCKQUOTE>
+<P><STRONG>cursed or confused</STRONG> <BR>You will wake up, unparalyze, =
+and=20
+unscare monsters within your visual range.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You hear sad wailing close by." (something was affected) <BR>"You =
+hear sad=20
+  wailing in the distance." (no creature affected)</P></BLOCKQUOTE>
+<H3><A id=3Dstinking_cloud name=3Dstinking_cloud></A>stinking cloud</H3>
+<P>Always identified when read.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You have found a scroll of stinking cloud!"</P></BLOCKQUOTE>
+<P>Creates a gas cloud around a centre square you specify. This square =
+must be=20
+visible to you and within the following range:</P>
+<DIV style=3D"FONT-FAMILY: monospace"><PRE>      .....
+     .......
+    .........
+   ...........
+   ...........
+   .....@.....
+   ...........
+   ...........
+    .........
+     .......
+      .....
+</PRE></DIV>
+<P>or there will be no effect ("You smell rotten eggs.").</P>
+<P><STRONG>blessed</STRONG> <BR>The cloud has a radius of 4 around the =
+centre=20
+square, and will dissipate after d3+7 turns; any living, breathing,=20
+non-poison-resistant creature within it is blinded and takes d12+5 =
+damage before=20
+the last four turns of the cloud's life, d6+5 in the penultimate two =
+turns, and=20
+d3+5 in the last two.</P>
+<P><STRONG>uncursed</STRONG> <BR>The cloud has a radius of 3 around the =
+centre=20
+square, and will dissipate after d3+5 turns; any living, breathing,=20
+non-poison-resistant creature within it is blinded and takes d8+5 damage =
+before=20
+the last two turns of the cloud's life, after which d4+5.</P>
+<P><STRONG>cursed</STRONG> <BR>The cloud has a radius of 2 around the =
+centre=20
+square, and will dissipate after d3+3 turns; any living, breathing,=20
+non-poison-resistant creature within it is blinded and takes d4+5 damage =
+before=20
+the last two turns of the cloud's life.</P>
+<H3><A id=3Dtaming name=3Dtaming></A>taming</H3>
+<P><STRONG>blessed or uncursed</STRONG> <BR>Tames monsters within a one =
+square=20
+radius. Also calms shopkeepers. <BR>Some monsters can resist. <BR>No=20
+messages.</P>
+<P><STRONG>cursed</STRONG> <BR>Angers monsters within a one square =
+radius.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"&lt;Monster&gt; gets angry!"</P></BLOCKQUOTE>
+<P><STRONG>non-cursed and confused</STRONG> <BR>Tames monsters within an =
+11x11=20
+square area. Also calms shopkeepers. <BR>Some monsters can resist. =
+<BR>No=20
+messages.</P>
+<P><STRONG>cursed and confused</STRONG> <BR>Angers monsters within an =
+11x11=20
+square area.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"&lt;Monster&gt; gets angry!"</P></BLOCKQUOTE>
+<H3><A id=3Dteleportation name=3Dteleportation></A>teleportation</H3>
+<P><STRONG>blessed</STRONG> <BR>If you don't have teleport control, you =
+can=20
+choose whether to teleport.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"Do you wish to teleport?"</P></BLOCKQUOTE>
+<P>If you are on a non-teleport level, no effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A mysterious force prevents you from =
+teleporting!"</P></BLOCKQUOTE>
+<P>Otherwise, one-third of the time if you are carrying the Amulet of =
+Yendor, no=20
+effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel disoriented for a moment."</P></BLOCKQUOTE>
+<P>Otherwise, you teleport to a random or controlled position on the =
+same=20
+level.</P>
+<P>You will identify the scroll.</P>
+<P><STRONG>uncursed</STRONG> <BR>If you are on a non-teleport level, no=20
+effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"A mysterious force prevents you from =
+teleporting!"</P></BLOCKQUOTE>
+<P>Otherwise, one-third of the time if you are carrying the Amulet of =
+Yendor, no=20
+effect.</P>
+<BLOCKQUOTE class=3Ddl>
+  <P>"You feel disoriented for a moment."</P></BLOCKQUOTE>
+<P>Otherwise, you teleport to a random or controlled position on the =
+same=20
+level.</P>
+<P>You identify the scroll if you have teleport control, don't see your =
+old=20
+position, or are radius 4 or more from your old position.</P>
+<P><STRONG>cursed or confused</STRONG> <BR>If you are not carrying the =
+Amulet of=20
+Yendor, you teleport to another level. If you have teleport control, you =
+can=20
+choose which level (with limits); if you are confused, there is a chance =
+that=20
+the teleport may be random regardless.</P>
+<H3>Acknowledgements</H3>
+<P>Thanks to Bruce Cox for proofreading the original version of this =
+file.=20
+<BR>Further corrections and clarifications provided by Christian Cooper, =
+Andreas=20
+Dorn, Josh Giesbrecht, Alon Lischinsky, Kate Nepveu, Pat Rankin, Rast, =
+Irina=20
+Rempt, and Jason Short.</P>
+<HR>
+
+<P><A href=3D"http://www.steelypips.org/nethack/343/index.html">Up to =
+the NetHack=20
+Page</A></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CD190D.29F05D20
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/nh.css
+
+BODY {
+	MARGIN: 1em 10% 1em 5%; FONT-FAMILY: "Times New Roman", serif; =
+BACKGROUND: #ffffff; COLOR: black
+}
+H1 {
+	COLOR: #660099
+}
+H2 {
+	COLOR: #660099
+}
+H3 {
+	COLOR: #660099
+}
+H4 {
+	COLOR: #660099
+}
+H5 {
+	COLOR: #660099
+}
+H6 {
+	COLOR: #660099
+}
+H1 {
+	FONT-STYLE: normal; FONT-SIZE: 200%; FONT-WEIGHT: bold
+}
+H2 {
+	FONT-SIZE: 158%; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 133%; FONT-WEIGHT: bold
+}
+H4 {
+	FONT-SIZE: 117%; FONT-WEIGHT: bold
+}
+A:link {
+	COLOR: #33f; FONT-WEIGHT: bold
+}
+A:visited {
+	COLOR: #90c; FONT-WEIGHT: bold
+}
+A:active {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+.mono {
+	FONT-FAMILY: Courier New, monospace
+}
+IMG.button {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0px 0.75em =
+0px 0px; BORDER-TOP-STYLE: none; FLOAT: left; BORDER-LEFT-STYLE: none
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+UL UL {
+	LIST-STYLE-TYPE: square
+}
+UL UL UL {
+	LIST-STYLE-TYPE: circle
+}
+OL LI {
+	MARGIN-TOP: 1em
+}
+UL.space LI {
+	MARGIN-TOP: 1em
+}
+TABLE {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+TD.color {
+	BACKGROUND-COLOR: #ccc
+}
+BLOCKQUOTE.dl {
+	MARGIN-TOP: -1em; MARGIN-BOTTOM: 0em
+}
+UL.long {
+	MARGIN-TOP: -1em
+}
+OL.soko LI {
+	MARGIN-TOP: 0em
+}
+EM.underline {
+	FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+DT {
+	MARGIN-TOP: 1em
+}
+
+------=_NextPart_000_0000_01CD190D.29F05D20
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/nhns.css
+
+BODY {
+	MARGIN: 1em 10% 1em 5%; FONT-FAMILY: "Times New Roman", serif; =
+BACKGROUND: #ffffff; COLOR: black
+}
+H1 {
+	COLOR: #660099
+}
+H2 {
+	COLOR: #660099
+}
+H3 {
+	COLOR: #660099
+}
+H4 {
+	COLOR: #660099
+}
+H5 {
+	COLOR: #660099
+}
+H6 {
+	COLOR: #660099
+}
+H1 {
+	FONT-STYLE: normal; FONT-SIZE: 200%; FONT-WEIGHT: bold
+}
+H2 {
+	FONT-SIZE: 158%; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 133%; FONT-WEIGHT: bold
+}
+H4 {
+	FONT-SIZE: 117%; FONT-WEIGHT: bold
+}
+A:link {
+	COLOR: #33f; FONT-WEIGHT: bold
+}
+A:visited {
+	COLOR: #90c; FONT-WEIGHT: bold
+}
+A:active {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+.mono {
+	FONT-FAMILY: Courier New, monospace
+}
+IMG.button {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; FLOAT: left; BORDER-LEFT-STYLE: none
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+UL UL {
+	LIST-STYLE-TYPE: square
+}
+UL UL UL {
+	LIST-STYLE-TYPE: circle
+}
+TD.color {
+	BACKGROUND-COLOR: #ccc
+}
+BLOCKQUOTE.dl {
+	MARGIN-TOP: -1em; MARGIN-BOTTOM: 0em
+}
+UL.long {
+	MARGIN-TOP: -1em
+}
+OL.soko LI {
+	MARGIN-TOP: 0em
+}
+EM.underline {
+	FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+DT {
+	MARGIN-TOP: 1em
+}
+
+------=_NextPart_000_0000_01CD190D.29F05D20--

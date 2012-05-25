@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>NetHack Gazetteer: Sokoban</title>
+
+
+</head>
+
+<body bgcolor="#000000" text="#ffffff" link="#ffff00" vlink="#ff0000">
+<h1>Sokoban</h1>
+
+<p>This is an upward-extending branch consisting of 4 levels; it is
+reached by a second upstair in the <a href="dungeons.html">Dungeons of
+Doom</a> located on the level immediately below the
+<a href="oracle.html">Oracle</a> level (and therefore between DL 6 and DL
+10).</p>
+
+<p>All levels in the branch are no-teleport and ineligible to leave bones
+files. Level teleport is also forbidden within the branch. Monster creation
+within this branch is biased towards neutral monsters.</p>
+
+<p>On all Sokoban levels, diagonal movement between boulders or
+between boulders and walls, pushing boulders diagonally, or picking
+boulders up, are disallowed actions; all walls are undiggable and
+unphasable. Certain actions carry -1 Luck penalties:</p>
+
+<ul>
+<li>breaking boulders</li>
+<li>turning boulders to flesh</li>
+<li>reading scrolls of earth</li>
+<li>jumping</li>
+<li>being pulled by a chain attached to a thrown iron ball</li>
+<li>movement by Newton's Third Law</li>
+<li>squeezing past boulders</li>
+</ul>
+
+<hr />
+<h2>Maps</h2>
+
+<p>Each level will be one of two variants, chosen with equal
+probability.  Each level contains four random food items, one random
+ring, and one random wand (along with lots of boulders). The marked
+traps on each level are holes (with the exception of the bottom level,
+where they are pits), and are inescapable.</p>
+
+<h3>Bottom level</h3>
+
+<pre>
+------  -----                   -------- ------
+|....|  |...|                   |&lt;|>...---....|
+|.`..----.`.|                   |^|-.``....`..|
+|.`......`..|                   |^||..``|.`.`.|
+|..--->---`.|                   |^||....|.....|
+|---------.---        or        |^|------`----|
+|..^^^&lt;|.....|                  |^|    |......|
+|..----|`....|                  |^------......|
+--^|   |.`...|                  |..^^^^````...|
+ |^-----.`...|                  |??-----......|
+ |..^^^^`.`..|                  ----   --------
+ |??----------
+ ---- 
+</pre>
+<small><a href="legend.html">Legend</a></small>
+
+<p>In addition to the usual items on the level, there are two marked
+scrolls of earth. The marked traps are pits.</p>
+
+<hr />
+<h3>Second level</h3>
+<pre>
+-----------       -----------             ----          -----------
+|....|....---     |.........|            --.>--------   |.........|
+|..``|``...>|     |.........|            |..........|   |.........|
+|.....`...---     |.........|            |.`-----`-.|   |.........|
+|....|....|       |....&lt;....|            |..|...|.`.|   |....&lt;....|
+|-.---------      |.........|            |.`.`....`-|   |.........|
+|..`.|.....|      |.........|     or     |.`..`..|..|   |.........|
+|.``.|`.`.`|      |.........|            |.----`.--.|   |.........|
+|..`.....`.|      |.........|            |..`...`.|.--  |.........|
+|.```|`..`.----------------+|            |.---`-...`.------------+|
+|....|..`.`.^^^^^^^^^^^^^^^.|            |...|..`-.`.^^^^^^^^^^^^.|
+-----------------------------            |..`......----------------
+			                 -----..|..|
+              		                     -------
+</pre>
+<small><a href="legend.html">Legend</a></small>
+
+<hr />
+<h3>Third level</h3>
+<pre>
+  --------                    --------------------
+---.|....|	              |........|...|.....|
+|...`....|----------          |.``..-``|.-.|.....|
+|.-.``-``|.|.......|          |..|.`.`.|``.|.....|
+|.``-......|.......|          |-.|..-..|.-.|..&lt;..|
+|.-..`.|...|.......|          |...--.......|.....|
+|....-`--`-|...&lt;...|    or    |...|.`.-...-|.....|
+|..``..`...|.......|          |.`.|`.|...--|.....|
+|.--...|...|.......|          |-`.|..-----------+|
+|....-`|---|.......|          |..`....^^^^^^^^^^.|
+---..`.-----------+|          |...|.>-------------
+  |..`>^^^^^^^^^^..|          --------
+  ------------------
+</pre>
+<small><a href="legend.html">Legend</a></small>
+
+<hr />
+<h3>Top level</h3>
+<pre>
+--------------------------            ------------------------
+|>......^^^^^^^^^^^^^^^^.|            |..^^^^^^^^^^^^^^^^^^..|
+|.......----------------.|            |..-------------------.|
+-------.------         |.|          ----.|    -----        |.|
+ |...........|         |.|          |..|`--  --...|        |.|
+ |.`.`.`.`.`.|         |.|          |.....|--|.`..|        |.|
+--------.----|         |.|          |.``..|..|..`.|        |.|
+|...`.`..`.`.|         |.|          --..``|...``.--        |.|
+|...`........|         |.|           |`..`...|`..|   ------|.|
+-----.--------   ------|.|    or     |.``.|..|..`| --|.....|.|
+ |..`.`.`...|  --|.....|.|           |.`.`---|.`.| |x+.....|.|
+ |.....`....|  |x+.....|.|           |.......|..-- |-|.....|.|
+ |.`.`...`.--  |-|.....|.|           ----.`..|.--  |x+.zoo.+.|
+-------.----   |x+.zoo.+.|              ---.--.|   |-|.....|--
+|..`.....|     |-|.....|--               |.`...|   |x+.....|
+|........|     |x+.....|                 |>.|..|   --|.....|
+|...------     --|.....|                 -------     -------
+-----            -------
+</pre>
+<small><a href="legend.html">Legend</a></small>
+
+<p>One of the points marked 'x' (chosen randomly) contains a bag of
+holding (in the left variant of the level) or an amulet of reflection
+(in the right variant). In addition to the monsters in the marked zoo,
+there are two giant mimics imitating boulders randomly placed on the
+level.</p>
+
+<hr />
+<div>
+<a href="./index.html">Gazetteer</a><br />
+<a href="http://www.spod-central.org/~psmith/nh/">NetHack 3.4 Spoilers</a><br />
+</div>
+<address>
+<a href="http://www.spod-central.org/~psmith/">Dylan O'Donnell</a>
+(<a href="mailto:psmith@spod-central.org">psmith@spod-central.org</a>)
+</address>
+<hr />
+</body>
+</html>

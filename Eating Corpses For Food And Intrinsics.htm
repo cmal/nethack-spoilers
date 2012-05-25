@@ -1,0 +1,892 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://voxl.org/nethack/corpses.html -->
+<HTML><HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Table of Nethack corpses, their properties and intrinsics." />
+<meta name="keywords" content="Nethack corpses, Nethack, corpses, intrinsics, spoiler, food" />
+<TITLE>Eating Corpses For Food And Intrinsics</TITLE>
+<STYLE type="text/css">
+<!--
+th {font: 10pt Arial, sans-serif; font-weight: bold}
+-->
+</STYLE>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-351436-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HEAD><BODY>
+<!-- following code added by server. PLEASE REMOVE -->
+<LINK href="./Eating Corpses For Food And Intrinsics_files/div.css" rel="stylesheet" type="text/css"><SCRIPT language="JavaScript" src="./Eating Corpses For Food And Intrinsics_files/div03.js"></SCRIPT>
+<!-- preceding code added by server. PLEASE REMOVE -->
+<H1>Eating Corpses For Food And Intrinsics</H1>
+Based on the table by Catherine Darrow.<BR>
+Compiled for NetHack 3.4.3 by David Corbett.<BR>
+Last changed 7 July, 2004.<BR>
+
+<H2>Contents</H2>
+<UL>
+<LI><A href="http://voxl.org/nethack/corpses.html#TABLE1">Table of monsters and intrinsics</A>
+</LI><LI><A href="http://voxl.org/nethack/corpses.html#EFFECT">Effects of eating corpses</A>
+<UL><LI><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A>
+</LI><LI><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A>
+</LI><LI><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></LI></UL>
+</LI><LI><A href="http://voxl.org/nethack/corpses.html#OLD">Old and tainted corpses, and food poisoning</A>
+</LI><LI><A href="http://voxl.org/nethack/corpses.html#TABLE2">Monsters not leaving corpses</A>
+</LI></UL>
+
+<P>This spoiler details the nutrition, intrinsics and other effects of eating corpses.</P>
+
+<H2><A name="TABLE1">Table of monsters and intrinsics </A></H2>    
+
+<TABLE border="1" cellspacing="3" cellpadding="4">    
+
+<TBODY><TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>abbot</TD> <TD>400</TD> <TD>Human</TD> <TD>Hallucination</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>acid blob</TD> <TD>10   V!</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>acolyte</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>aligned priest</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ape</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>apprentice</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Arch Priest</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>archeologist</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>attendant</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby black dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby blue dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby crocodile</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby gray dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby green dragon</TD> <TD>500</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby long worm</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby orange dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby purple worm</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby red dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby silver dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby white dragon</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baby yellow dragon</TD> <TD>500</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>baluchitherium</TD> <TD>800</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>barbarian</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>bat</TD> <TD>20</TD> <TD>&nbsp;</TD> <TD>Stun (30)</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>black dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Disintegration: 100%</TD></TR>
+
+<TR><TD>black naga</TD> <TD>400</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Poison: 53%</TD></TR>
+
+<TR><TD>black naga hatchling</TD> <TD>100</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>black pudding</TD> <TD>250</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Cold: 22%, Shock: 22%, Poison: 22%</TD></TR>
+
+<TR><TD>black unicorn</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TD>blue dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Shock: 100%</TD></TR>
+
+<TR><TD>blue jelly</TD> <TD>20   V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 13%, Poison: 13%</TD></TR>
+
+<TR><TD>brown mold</TD> <TD>30   V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 3%, Poison: 3%</TD></TR>
+
+<TR><TD>brown pudding</TD> <TD>250 V</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Cold: 11%, Shock: 11%, Poison: 11%</TD></TR>
+
+<TR><TD>bugbear</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>captain</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>carnivorous ape</TD> <TD>550</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>cave spider</TD> <TD>50</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 7%</TD></TR>
+
+<TR><TD>caveman</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>cavewoman</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>centipede</TD> <TD>50</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 13%</TD></TR>
+
+<TR><TD>chameleon</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>Polymorph</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>chickatrice</TD> <TD>10</TD> <TD>Petrify</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TD>chieftain</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Chromatic Dragon</TD> <TD>1700</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Fire: 17%, Cold: 17%, Sleep: 17%, Shock: 17%, Poison: 17%, Disintegration: 17%</TD></TR>
+
+<TR><TD>cobra</TD> <TD>100</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 40%</TD></TR>
+
+<TR><TD>cockatrice</TD> <TD>30</TD> <TD>Petrify</TD> <TD>&nbsp;</TD> <TD>Poison: 33%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>coyote</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>crocodile</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Croesus</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Cyclops</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Death</TD> <TD>1</TD> <TD>DIE</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>dingo</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>disenchanter</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>dog</TD> <TD>200</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>doppelganger</TD> <TD>400</TD> <TD>Human</TD> <TD>Polymorph</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>dwarf</TD> <TD>300</TD> <TD>Dwarf</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>dwarf king</TD> <TD>300</TD> <TD>Dwarf</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>dwarf lord</TD> <TD>300</TD> <TD>Dwarf</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>electric eel</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Shock: 47%</TD></TR>
+
+<TR><TD>elf</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 67%</TD></TR>
+
+<TR><TD>elf-lord</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 53%</TD></TR>
+
+<TR><TD>Elvenking</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 60%</TD></TR>
+
+<TR><TD><A name="ETTIN">ettin</A></TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Famine</TD> <TD>1</TD> <TD>DIE</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>fire ant</TD> <TD>10</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 20%</TD></TR>
+
+<TR><TD>fire giant</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>Fire: 30%</TD></TR>
+
+<TR><TD>flesh golem</TD> <TD>600</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 12%, Cold: 12%, Sleep: 12%, Shock: 12%, Poison: 12%</TD></TR>
+
+<TR><TD>floating eye</TD> <TD>10</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Telepathy: 100%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>forest centaur</TD> <TD>600</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>fox</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>frost giant</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>Cold: 33%</TD></TR>
+
+<TR><TD>gargoyle</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>garter snake</TD> <TD>60</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gecko</TD> <TD>20</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gelatinous cube</TD> <TD>150  V!</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Fire: 10%, Cold: 10%, Sleep: 10%, Shock: 10%</TD></TR>
+
+<TR><TD>giant</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant ant</TD> <TD>10</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant bat</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>Stun (60)</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant beetle</TD> <TD>10</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 33%</TD></TR>
+
+<TR><TD>giant eel</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant mimic</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>Mimic (50)</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant rat</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>giant spider</TD> <TD>100</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 33%</TD></TR>
+
+<TR><TD>glass piercer</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gnome</TD> <TD>100</TD> <TD>Gnome</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gnome king</TD> <TD>150</TD> <TD>Gnome</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gnome lord</TD> <TD>120</TD> <TD>Gnome</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gnomish wizard</TD> <TD>120</TD> <TD>Gnome</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>goblin</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>golden naga</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 67%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>golden naga hatchling</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>Grand Master</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gray dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>gray ooze</TD> <TD>250 V</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>Fire: 7%, Cold: 7%, Poison: 7%</TD></TR>
+
+<TR><TD>gray unicorn</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TD>green dragon</TD> <TD>1500</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 100%</TD></TR>
+
+<TR><TD>green mold</TD> <TD>30   V!</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>green slime</TD> <TD>150 V</TD> <TD>Slime, Poisonous, Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Green-elf</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 33%</TD></TR>
+
+<TR><TD>gremlin</TD> <TD>20</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 33%</TD></TR>
+
+<TR><TD>Grey-elf</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 40%</TD></TR>
+
+<TR><TD>guard</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>guardian naga</TD> <TD>400</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 80%</TD></TR>
+
+<TR><TD>guardian naga hatchling</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>guide</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>healer</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hell hound</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 80%</TD></TR>
+
+<TR><TD>hell hound pup</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 47%</TD></TR>
+
+<TR><TD>high priest</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hill giant</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hill orc</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>Hippocrates</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hobbit</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hobgoblin</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>homunculus</TD> <TD>100</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Sleep: 7%, Poison: 7%</TD></TR>
+
+<TR><TD>horse</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>housecat</TD> <TD>200</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>human</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>hunter</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ice troll</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 60%</TD></TR>
+
+<TR><TD>iguana</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>imp</TD> <TD>10</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>iron piercer</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Ixoth</TD> <TD>1600</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 100%</TD></TR>
+
+<TR><TD>jabberwock</TD> <TD>600</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>jackal</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>jaguar</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>jellyfish</TD> <TD>20</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>Keystone Kop</TD> <TD>200</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>killer bee</TD> <TD>5</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 30%</TD></TR>
+
+<TR><TD>King Arthur</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>kitten</TD> <TD>150</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>knight</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>kobold</TD> <TD>100</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>kobold lord</TD> <TD>200</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>kobold shaman</TD> <TD>150</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Kop Kaptain</TD> <TD>200</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Kop Lieutenant</TD> <TD>200</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Kop Sergeant</TD> <TD>200</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>kraken</TD> <TD>1000</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>large cat</TD> <TD>250</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>large dog</TD> <TD>250</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>large kobold</TD> <TD>150</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>large mimic</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>Mimic (40)</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>leocrotta</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>leprechaun</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Teleportitis: 50%</TD></TR>
+
+<TR><TD>lichen</TD> <TD>200  V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>lieutenant</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>little dog</TD> <TD>150</TD> <TD>Aggravate</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>lizard</TD> <TD>40</TD> <TD>Cure stoning</TD> <TD>Reduce stunning, confusion</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>long worm</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Lord Carnarvon</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Lord Sato</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Lord Surtur</TD> <TD>850</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>Fire: 50%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>lurker above</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>lynx</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Master Assassin</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Master Kaen</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>Poison: 100%</TD></TR>
+
+<TR><TD>master mind flayer</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>Intelligence: 50%</TD> <TD>Telepathy: (if no Intelligence gain)</TD></TR>
+
+<TR><TD>Master of Thieves</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>mastodon</TD> <TD>800</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Medusa</TD> <TD>400</TD> <TD>Petrify, Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 100%</TD></TR>
+
+<TR><TD>mind flayer</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>Intelligence: 50%</TD> <TD>Telepathy: (if no Intelligence gain)</TD></TR>
+
+<TR><TD>minotaur</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>monk</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>monkey</TD> <TD>50</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Mordor orc</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>mountain centaur</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>mountain nymph</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Teleportitis: 30%</TD></TR>
+
+<TR><TD>mumak</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>neanderthal</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Neferet the Green</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>newt</TD> <TD>20</TD> <TD>&nbsp;</TD> <TD>Energy: 67%</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ninja</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Norn</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>nurse</TD> <TD>400</TD> <TD>Human</TD> <TD>Heal</TD> <TD>Poison: 73%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>ochre jelly</TD> <TD>20   V!</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ogre</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ogre king</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ogre lord</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Olog-hai</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Oracle</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>orange dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Sleep: 100%</TD></TR>
+
+<TR><TD><A name="ORC">orc</A></TD> <TD>150</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>orc shaman</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>orc-captain</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Orion</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>owlbear</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>page</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>panther</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Pelias</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Pestilence</TD> <TD>1</TD> <TD>DIE</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>piranha</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>pit viper</TD> <TD>60</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 40%</TD></TR>
+
+<TR><TD>plains centaur</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>pony</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>priest</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>priestess</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>prisoner</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>purple worm</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>pyrolisk</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 20%, Poison: 20%</TD></TR>
+
+<TR><TD>python</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>quantum mechanic</TD> <TD>20</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Speed Toggle</TD></TR>
+
+<TR><TD>quasit</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>queen bee</TD> <TD>5</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 60%</TD></TR>
+
+<TR><TD>quivering blob</TD> <TD>100  V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 33%</TD></TR>
+
+<TR><TD>rabid rat</TD> <TD>5</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>ranger</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>raven</TD> <TD>20</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>red dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 100%</TD></TR>
+
+<TR><TD>red mold</TD> <TD>30   V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 3%, Poison: 3%</TD></TR>
+
+<TR><TD>red naga</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 20%, Poison: 20%</TD></TR>
+
+<TR><TD>red naga hatchling</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Fire: 10%, Poison: 10%</TD></TR>
+
+<TR><TD>rock mole</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>rock piercer</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>rock troll</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>rogue</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>roshi</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>rothe</TD> <TD>100</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>rust monster</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>salamander</TD> <TD>400</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Fire: 53%</TD></TR>
+
+<TR><TD>samurai</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>sasquatch</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>scorpion</TD> <TD>100</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 50%</TD></TR>
+
+<TR><TD>Scorpius</TD> <TD>350</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 100%</TD></TR>
+
+<TR><TD>sergeant</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>sewer rat</TD> <TD>12</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Shaman Karnov</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>shark</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>shopkeeper</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>shrieker</TD> <TD>100  V!</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>silver dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>small mimic</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>Mimic (20)</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>snake</TD> <TD>80</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TD>soldier</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>soldier ant</TD> <TD>5</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>spotted jelly</TD> <TD>20   V!</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>stalker</TD> <TD>400</TD> <TD>&nbsp;</TD> <TD>Stun (60)</TD> <TD>Invisibility</TD></TR>
+
+<TR><TD>stone giant</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>storm giant</TD> <TD>750</TD> <TD>&nbsp;</TD> <TD>Strength</TD> <TD>Shock: 50%</TD></TR>
+
+<TR><TD>student</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>tengu</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 13%, Teleportitis: 20%, Teleport control: 17%</TD></TR>
+
+<TR><TD>thug</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>tiger</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>titan</TD> <TD>900</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>titanothere</TD> <TD>650</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>tourist</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>trapper</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>troll</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Twoflower</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>umber hulk</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Uruk-hai</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>valkyrie</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>vampire bat</TD> <TD>20</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>violet fungus</TD> <TD>100  V!</TD> <TD>&nbsp;</TD> <TD>Hallucination</TD> <TD>Poison: 20%</TD></TR>
+
+<TR><TD>warg</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>warhorse</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>warrior</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>watch captain</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>watchman</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>water moccasin</TD> <TD>80</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TD>water nymph</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Teleportitis: 30%</TD></TR>
+
+<TR><TD>water troll</TD> <TD>350</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>werejackal</TD> <TD>400</TD> <TD>Human, Poisonous</TD> <TD>&nbsp;</TD> <TD>Lycanthropy: 100%</TD></TR>
+
+<TR><TD>wererat</TD> <TD>400</TD> <TD>Human, Poisonous</TD> <TD>&nbsp;</TD> <TD>Lycanthropy: 100%</TD></TR>
+
+<TR><TD>werewolf</TD> <TD>400</TD> <TD>Human, Poisonous</TD> <TD>&nbsp;</TD> <TD>Lycanthropy: 100%</TD></TR>
+
+<TR><TD>white dragon</TD> <TD>1500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 100%</TD></TR>
+
+<TR><TD>white unicorn</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Poison: 27%</TD></TR>
+
+<TR><TH>Name</TH> <TH>Nutrition</TH> <TH><A href="http://voxl.org/nethack/corpses.html#INITIAL">Initial effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#FINAL">Final effects</A></TH><TH><A href="http://voxl.org/nethack/corpses.html#INTRIN">Intrinsics</A></TH></TR>
+    
+<TR><TD>winged gargoyle</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>winter wolf</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 47%</TD></TR>
+
+<TR><TD>winter wolf cub</TD> <TD>200</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 33%</TD></TR>
+
+<TR><TD>wizard</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Wizard of Yendor</TD> <TD>400</TD> <TD>Human</TD> <TD>&nbsp;</TD> <TD>Fire: 25%, Poison: 25%, Teleportitis: 25%, Teleport control: 25%</TD></TR>
+
+<TR><TD>wolf</TD> <TD>250</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>wood nymph</TD> <TD>300</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Teleportitis: 30%</TD></TR>
+
+<TR><TD>woodchuck</TD> <TD>30</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>Woodland-elf</TD> <TD>350</TD> <TD>Elf</TD> <TD>&nbsp;</TD> <TD>Sleep: 27%</TD></TR>
+
+<TR><TD>wraith</TD> <TD>0</TD> <TD>&nbsp;</TD> <TD>Gain level</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>wumpus</TD> <TD>500</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>xan</TD> <TD>300</TD> <TD>Poisonous</TD> <TD>&nbsp;</TD> <TD>Poison: 47%</TD></TR>
+
+<TR><TD>xorn</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>yellow dragon</TD> <TD>1500</TD> <TD>Acidic</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+<TR><TD>yellow mold</TD>  <TD>30   V!</TD> <TD>Poisonous</TD> <TD>Hallucination</TD> <TD>Poison: 7%</TD></TR>
+
+<TR><TD>yeti</TD> <TD>700</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>Cold: 33%</TD></TR>
+
+<TR><TD>zruty</TD> <TD>600</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD> <TD>&nbsp;</TD></TR>
+
+</TBODY></TABLE>
+
+<P>Zombies and the like are not listed in this table, since technically a dwarf zombie doesn't leave a dwarf zombie corpse, it leaves an old dwarf corpse. Monsters that don't leave corpses at all are listed in a <A href="http://voxl.org/nethack/corpses.html#TABLE2">separate table</A>.</P>
+
+<P>The "Nutrition" column shows how many nutrition points are gained from eating a corpse.<BR>
+The nutrition points from a tin varies on the type of tin: see Dylan O'Donnell's <A href="http://www.steelypips.org/nethack/341/food-341.html">food</A> spoiler for more details.<BR>
+Those monsters marked 'V' are suitable for vegetarians. Those marked '!' are suitable for vegans.<BR>
+
+</P><H2> <A name="EFFECT">Effects of eating corpses</A></H2>
+
+<H3><A name="INITIAL">Initial effects:</A></H3>
+
+<P>
+The "Initial effects" column shows the effects that occur on the first bite of a corpse.
+</P>
+
+<P>Tinned food is eaten in one turn, so both initial and final effects (including intrinsic gains) happen on the same turn, the initial effects happening first.
+</P>
+
+<TABLE border="1" cellspacing="1" cellpadding="3">    
+
+<TBODY><TR><TD>Acidic</TD><TD>Acidic corpses deal 1 to 15 damage to you if not acid-resistant. If turning to stone, you are cured.
+<BR>Tins of acidic monsters deal no acid damage, but still stop you turning to stone.</TD></TR>
+
+<TR><TD>Poisonous</TD><TD>80% chance to deal 1 to 15 damage to you and reduce your strength by 1 to 4, if not poison-resistant.
+<BR>Tins of monsters are not poisonous.</TD></TR>
+
+<TR><TD>Cannibalism<BR>(Human, Dwarf, Elf, Gnome)</TD><TD>If you eat a member of your own race, and are not a Caveman, you gain aggravate monster and lose 2 to 5 luck.</TD></TR>
+
+<TR><TD>Aggravate</TD><TD>Eating this monster gives you aggravate monster. Orcs and Cavemen are exempt.</TD></TR>
+
+<TR><TD>Slime</TD><TD>Eating a green slime makes you begin turning into slime, killing you in 10 turns, unless you have unchanging or you are a green slime, a fire elemental, flaming sphere, fire vortex or salamander.</TD></TR>
+
+<TR><TD>Petrify</TD><TD>Eating a chickatrice, cockatrice or Medusa instantly petrifies you, unless stoning-resistant. If you are a golem, you become a stone golem, otherwise petrification kills you.</TD></TR>
+
+<TR><TD>DIE</TD><TD>Eating Death, Famine or Pestilence instantly kills you.</TD></TR>
+
+<TR><TD>Cure stoning</TD><TD>Eating lizard meat cures you if turning to stone.</TD></TR>
+</TBODY></TABLE>
+
+<P>Eating meat (those monsters not marked 'V' in the "Nutrition" column) results in a -1 penalty to alignment, if you are a Monk.
+</P>
+
+<H3><A name="FINAL">Final effects:</A></H3>
+
+<P>
+The "Final effects" column shows the effects that occur after finishing a corpse.
+</P>
+
+<TABLE border="1" cellspacing="1" cellpadding="3">    
+
+<TBODY><TR><TD>Stun</TD><TD>You become stunned for the number of turns shown.</TD></TR>
+
+<TR><TD>Polymorph</TD><TD>You change form, unless you have unchanging.</TD></TR>
+
+<TR><TD>Hallucination</TD><TD>You hallucinate for 200 (more) turns.</TD></TR>
+
+<TR><TD>Mimic</TD><TD>You mimic a pile of gold (or an orange if hallucinating) for the number of turns shown (falling off your steed, if applicable), unless you have unchanging.</TD></TR>
+
+<TR><TD>Reduce stunning, confusion</TD><TD>Eating a lizard reduces stunning and confusion counts to 2 turns, if higher.</TD></TR>
+
+<TR><TD>Strength</TD><TD>Eating a giant makes you gain strength, potentially as high as your racial maximum. (You can also gain an intrinsic at the same time, if appropriate.)<BR>
+If you had less than 18 strength, then you have a 19/24 chance of gaining one point, or a 1/24 chance each of gaining 2 to 6 points.<BR>
+If you had 18 strength or more, then you gain 1 to 10 points (equally likely).<BR>
+If you had strength 18/85 or more, gain just one point, up to 18/**.</TD></TR>
+
+<TR><TD>Intelligence</TD><TD> Gain 1 intelligence.</TD></TR>
+
+<TR><TD>Gain level</TD><TD> Eating a wraith corpse makes you gain a level, unless the corpse rots away before you finish (which will happen, for instance, if you are interrupted while eating it).</TD></TR>
+
+<TR><TD>Energy</TD><TD>Eating a newt may give you 1 to 3 energy (100% chance if current energy is two-thirds or less of maximum energy). If this puts you above your maximum energy, you have a one-third chance to gain 1 maximum energy.</TD></TR>
+
+<TR><TD>Heal</TD><TD>Eating a nurse heals you to maximum hit points.</TD></TR>
+</TBODY></TABLE>
+
+<H3><A name="INTRIN">Intrinsics:</A></H3>
+
+<P>
+The "Intrinsics" column shows the intrinsics that can be gained after finishing a corpse, with their probability of being conferred.</P>
+
+<TABLE border="1" cellspacing="1" cellpadding="3">    
+
+<TBODY><TR><TD>Fire, Cold, Shock, Poison, Sleep, Disintegration</TD><TD>Gain the corresponding resistance, with the probability shown.</TD></TR>
+
+<TR><TD>Telepathy, Teleport Control, Teleportitis</TD><TD>Gain the corresponding intrinsic.</TD></TR>
+
+<TR><TD>Invisibility</TD><TD>If not already invisible, you become temporarily invisible, else you gain permanent invisibility and see invisible.</TD></TR>
+
+<TR><TD>Lycanthropy</TD><TD>You become a lycanthrope of the same kind as the corpse eaten.</TD></TR>
+
+<TR><TD>Speed toggle</TD><TD>If you have intrinsic speed, you lose it. If you don't have it, you gain it.</TD></TR>
+</TBODY></TABLE>
+
+<P>The chances of receiving an intrinsic (e.g., poison: 33%) imply that
+eating the corpse has that chance of conferring the intrinsic (i.e.,
+corpses that can give multiple intrinsics have already had that accounted
+for). If you already have one of the possible intrinsics from a corpse,
+the others do not become more likely. You will never gain more than one
+intrinsic from a corpse.</P>
+
+<P>Tins of monsters confer intrinsics with the same probabilities as the corpses of the monster. Whether a corpse or tin is blessed or cursed has no effect on the chances.</P>
+
+For more information on the effects of intrinsics and the associated messages when gaining them, see Dylan O'Donnell's spoilers:<BR>
+For the effects of fire, cold, shock, poison, sleep and disintegration resistance, see the
+<A href="http://www.steelypips.org/nethack/343/drgn-343.html">
+ dragon intrinsics</A> spoiler.<BR>
+
+For the effects of teleportitis, teleport control, see invisible, invisibility, and aggravate monster, see the
+<A href="http://www.steelypips.org/nethack/343/rint-343.html">
+ ring intrinsics</A> spoiler.<BR>
+
+For the effects of speed, telepathy and lycanthropy, see the
+<A href="http://www.steelypips.org/nethack/343/intr-343.html">
+ miscellaneous intrinsics</A> spoiler.<BR>
+
+
+<P>
+</P><H3><A name="OLD">Old and tainted corpses, and food poisoning</A></H3>
+Corpses that have been left too long may give you food poisoning.
+<UL><LI>Lizard and lichen corpses never rot.
+</LI><LI>Corpses left on ice age half as quickly, corpses in iceboxes do not age at all.
+</LI><LI>Corpses left by mummies, zombies and vampires are 100 turns old when they die. The corpse will be of the monster's base race (vampires are human).
+</LI></UL>
+
+For corpses other than lizards and lichen, the possibility of getting food poisoning from a corpse is as follows:
+<UL><LI>The age of the corpse is divided by a random number between 10 and 29, and rounded down.
+</LI><LI>Add 2 if the corpse is cursed, subtract 2 if blessed.
+</LI><LI>If the result is more than 5, and not an acid blob, it is tainted. The corpse disappears, conveying no nutrition or intrinsics. If you are not sickness-resistant, it gives you food poisoning. This will kill you in 11 to 20 turns if it is not cured.
+</LI><LI>Otherwise, if the result is more than 3, and you are not sickness-resistant, there is an 80% chance of the corpse being too old. You take 1 to 8 points of damage.
+</LI></UL>
+
+<P>Food poisoning may be cured by:
+</P><UL><LI>the spell "cure sickness"
+</LI><LI>a non-cursed potion of extra or full healing, or blessed potion of healing
+</LI><LI>using a non-cursed unicorn horn
+</LI><LI>eating a non-cursed eucalyptus leaf
+</LI><LI>praying for divine intervention
+</LI><LI>a potion of holy water (but not if chaotic or polymorphed into a demon or undead monster)
+</LI><LI>#invoking the Staff of Aesculapius
+</LI><LI>a nurse's healing "attack"
+</LI><LI>polymorphing into your own form, or a sickness-resistant monster (a ghoul or any F)
+</LI></UL>
+<P></P>
+
+<!-- monsters below here leave no corpses -->
+<H2><A name="TABLE2">Monsters not leaving corpses </A></H2>
+<TABLE width="80%" border="1" cellspacing="1" cellpadding="3">
+<TBODY><TR><TD>
+air elemental</TD> <TD>
+Aleax</TD> <TD>
+Angel</TD> <TD>
+arch-lich</TD> <TD>
+Archon</TD>
+</TR><TR><TD>
+Ashikaga Takauji</TD> <TD>
+Asmodeus</TD> <TD>
+Baalzebub</TD> <TD>
+balrog</TD> <TD>
+barbed devil</TD>
+</TR><TR><TD>
+barrow wight</TD> <TD>
+black light</TD> <TD>
+bone devil</TD> <TD>
+clay golem</TD> <TD>
+couatl</TD>
+</TR><TR><TD>
+Dark One</TD> <TD>
+demilich</TD> <TD>
+Demogorgon</TD> <TD>
+Dispater</TD> <TD>
+djinni </TD>
+</TR><TR><TD>
+dust vortex</TD> <TD>
+earth elemental</TD> <TD>
+energy vortex</TD> <TD>
+erinys</TD> <TD>
+fire elemental</TD>
+</TR><TR><TD>
+fire vortex</TD> <TD>
+flaming sphere</TD> <TD>
+fog cloud</TD> <TD>
+freezing sphere</TD> <TD>
+gas spore</TD>
+</TR><TR><TD>
+Geryon</TD> <TD>
+ghost</TD> <TD>
+ghoul</TD> <TD>
+glass golem</TD> <TD>
+gold golem</TD>
+</TR><TR><TD>
+grid bug</TD> <TD>
+hezrou</TD> <TD>
+horned devil</TD> <TD>
+ice devil</TD> <TD>
+ice vortex</TD>
+</TR><TR><TD>
+incubus</TD> <TD>
+iron golem</TD> <TD>
+Juiblex</TD> <TD>
+ki-rin</TD> <TD>
+leather golem</TD>
+</TR><TR><TD>
+lemure</TD> <TD>
+lich</TD> <TD>
+mail daemon</TD> <TD>
+manes</TD> <TD>
+marilith</TD>
+</TR><TR><TD>
+master lich</TD> <TD>
+Minion of Huhetotl</TD> <TD>
+nalfeshnee</TD> <TD>
+Nalzok</TD> <TD>
+Nazgul</TD>
+</TR><TR><TD>
+Orcus</TD> <TD>
+paper golem</TD> <TD>
+pit fiend</TD> <TD>
+rope golem</TD> <TD>
+sandestin</TD>
+</TR><TR><TD>
+shade</TD> <TD>
+shocking sphere</TD> <TD>
+skeleton</TD> <TD>
+steam vortex</TD> <TD>
+stone golem</TD>
+</TR><TR><TD>
+straw golem</TD> <TD>
+succubus</TD> <TD>
+Thoth Amon</TD> <TD>
+Vlad the Impaler</TD> <TD>
+vrock</TD>
+</TR><TR><TD>
+water demon</TD> <TD>
+water elemental</TD> <TD>
+wood golem</TD> <TD>
+Yeenoghu</TD> <TD>
+yellow light</TD>
+</TR></TBODY></TABLE>
+
+<H2>References</H2>
+<P>Original table of monsters and intrinsics by Catherine Darrow. (catherine[AT]tomandcatherine[DOT]com)<BR>
+Dylan O'Donnell's spoilers on dragon, ring and miscellaneous intrinsics, and food.<BR>
+Kate Nepveu's Demogorgon spoiler.</P> 
+
+</BODY></HTML>

@@ -1,0 +1,5198 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: NetHack Weapons spoiler
+Date: Fri, 13 Apr 2012 00:34:28 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0007_01CD190D.2F8B9B00"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6157
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0007_01CD190D.2F8B9B00
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/weap-343.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den xmlns=3D"http://www.w3.org/1999/xhtml" =
+xml:lang=3D"en"><HEAD><TITLE>NetHack Weapons spoiler</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702">
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META content=3Dtext/css http-equiv=3DContent-Style-Type><LINK =
+rel=3DStyleSheet=20
+type=3Dtext/css href=3D"http://www.steelypips.org/nethack/343/nh2.css"=20
+media=3D"screen, foo"><LINK rel=3DStyleSheet type=3Dtext/css=20
+href=3D"http://www.steelypips.org/nethack/343/nh2ns.css" =
+media=3Dscreen></HEAD>
+<BODY>
+<H1>Weapons, weapon skills, and combat modifiers in NetHack 3.4</H1>
+<P>weap-343.html Last edited 2004-08-15 for NetHack 3.4.3 <BR>Compiled =
+for 3.2.2=20
+by Kevin Hugo. <BR>Updated for 3.4.3 by Dylan O'Donnell &lt;<A=20
+href=3D"mailto:psmith@spod-central.org">psmith@spod-central.org</A>&gt;. =
+<BR>HTML=20
+Conversion by Kate Nepveu &lt;<A=20
+href=3D"mailto:knepveu@steelypips.org">knepveu@steelypips.org</A>&gt;; =
+HTML=20
+re-synchronized 2005-08-29 by <A =
+href=3D"mailto:dfabulich@warpmail.net">Dan=20
+Fabulich</A>.</P>
+<H2>Contents</H2>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#table1">Weapo=
+ns=20
+  table 1: types of weapons</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#table2">Weapo=
+ns=20
+  table 2: skills and average damage</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skills">Weapo=
+n=20
+  skills</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#chancehit">Ca=
+lculating=20
+  the chance to hit</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#calcdamage">C=
+alculating=20
+  damage</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#launch">Relat=
+ionship=20
+  between launcher and missile modifiers</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#early">Choosi=
+ng an=20
+  early weapon</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#enchant">Weap=
+on=20
+  enchantment and erosion</A> </LI></UL>
+<TABLE border=3D1 summary=3D"Weapons table 1: Types" cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH colSpan=3D6 align=3Dleft><A id=3Dtable1 name=3Dtable1></A>WEAPON =
+(Table=20
+  1)</TH></TR>
+  <TR>
+    <TH align=3Dleft>Dagger</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>orcish dagger</TD>
+    <TD align=3Dright>$4</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>12</TD>
+    <TD>IRON</TD>
+    <TD>crude dagger</TD></TR>
+  <TR>
+    <TD>dagger</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>30</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>silver dagger</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>12</TD>
+    <TD align=3Dright>3</TD>
+    <TD>SILV</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>athame</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>0</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>elven dagger</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>10</TD>
+    <TD>WOOD</TD>
+    <TD>runed dagger</TD></TR>
+  <TR>
+    <TH align=3Dleft>Knife</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>worm tooth</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>0</TD>
+    <TD>NONE</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>knife (shito)</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>20</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>stiletto</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>5</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>scalpel</TD>
+    <TD align=3Dright>6</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>0</TD>
+    <TD>METL</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>crysknife</TD>
+    <TD align=3Dright>100</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>0</TD>
+    <TD>MINL</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Axe</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>axe</TD>
+    <TD align=3Dright>8</TD>
+    <TD align=3Dright>60</TD>
+    <TD align=3Dright>40</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>battle-axe</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>120*</TD>
+    <TD align=3Dright>10</TD>
+    <TD>IRON</TD>
+    <TD>double-headed axe</TD></TR>
+  <TR>
+    <TH align=3Dleft>Pick-axe</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>pick-axe</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>100</TD>
+    <TD align=3Dright>tool</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>dwarvish mattock</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>120*</TD>
+    <TD align=3Dright>13</TD>
+    <TD>IRON</TD>
+    <TD>broad pick</TD></TR>
+  <TR>
+    <TH align=3Dleft>Short sword</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>orcish short sword</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>3</TD>
+    <TD>IRON</TD>
+    <TD>crude short sword</TD></TR>
+  <TR>
+    <TD>short sword (wakizashi)</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>dwarvish short sword</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>2</TD>
+    <TD>IRON</TD>
+    <TD>broad short sword</TD></TR>
+  <TR>
+    <TD>elven short sword</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>2</TD>
+    <TD>WOOD</TD>
+    <TD>runed short sword</TD></TR>
+  <TR>
+    <TH align=3Dleft>Broadsword</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>broadsword (ninja-to)</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>70</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>runesword</TD>
+    <TD align=3Dright>300</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>0</TD>
+    <TD>IRON</TD>
+    <TD>runed broadsword</TD></TR>
+  <TR>
+    <TD>elven broadsword</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>70</TD>
+    <TD align=3Dright>4</TD>
+    <TD>WOOD</TD>
+    <TD>runed broadsword</TD></TR>
+  <TR>
+    <TH align=3Dleft>Long sword</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>long sword</TD>
+    <TD align=3Dright>15</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>50</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>katana</TD>
+    <TD align=3Dright>80</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>samurai sword</TD></TR>
+  <TR>
+    <TH align=3Dleft>Two-handed sword</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>two-handed sword</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>150*</TD>
+    <TD align=3Dright>22</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>tsurugi</TD>
+    <TD align=3Dright>500</TD>
+    <TD align=3Dright>60*</TD>
+    <TD align=3Dright>0</TD>
+    <TD>METL</TD>
+    <TD>long samurai sword</TD></TR>
+  <TR>
+    <TH align=3Dleft>Scimitar</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>scimitar</TD>
+    <TD align=3Dright>15</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>15</TD>
+    <TD>IRON</TD>
+    <TD>curved sword</TD></TR>
+  <TR>
+    <TH align=3Dleft>Saber</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>silver saber</TD>
+    <TD align=3Dright>75</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>6</TD>
+    <TD>SILV</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Club</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>club</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>12</TD>
+    <TD>WOOD</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>aklys</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>15</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>thonged club</TD></TR>
+  <TR>
+    <TH align=3Dleft>Mace</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>mace</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>40</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Morning star</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>morning star</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>120</TD>
+    <TD align=3Dright>12</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Flail</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>flail (nunchaku)</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>15</TD>
+    <TD align=3Dright>40</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>grappling hook</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>tool</TD>
+    <TD>IRON</TD>
+    <TD>iron hook</TD></TR>
+  <TR>
+    <TH align=3Dleft>Hammer</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>war hammer</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>15</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Quarterstaff</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>quarterstaff</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>40*</TD>
+    <TD align=3Dright>11</TD>
+    <TD>WOOD</TD>
+    <TD>staff</TD></TR>
+  <TR>
+    <TH align=3Dleft>Polearm</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>partisan</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>80*</TD>
+    <TD align=3Dright>5</TD>
+    <TD>IRON</TD>
+    <TD>vulgar polearm</TD></TR>
+  <TR>
+    <TD>fauchard</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>60*</TD>
+    <TD align=3Dright>6</TD>
+    <TD>IRON</TD>
+    <TD>pole sickle</TD></TR>
+  <TR>
+    <TD>glaive (naginata)</TD>
+    <TD align=3Dright>6</TD>
+    <TD align=3Dright>75*</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>single-edged polearm</TD></TR>
+  <TR>
+    <TD>bec-de-corbin</TD>
+    <TD align=3Dright>8</TD>
+    <TD align=3Dright>100*</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>beaked polearm</TD></TR>
+  <TR>
+    <TD>spetum</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>50*</TD>
+    <TD align=3Dright>5</TD>
+    <TD>IRON</TD>
+    <TD>forked polearm</TD></TR>
+  <TR>
+    <TD>lucern hammer</TD>
+    <TD align=3Dright>7</TD>
+    <TD align=3Dright>150*</TD>
+    <TD align=3Dright>5</TD>
+    <TD>IRON</TD>
+    <TD>pronged polearm</TD></TR>
+  <TR>
+    <TD>guisarme</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>80*</TD>
+    <TD align=3Dright>6</TD>
+    <TD>IRON</TD>
+    <TD>pruning hook</TD></TR>
+  <TR>
+    <TD>ranseur</TD>
+    <TD align=3Dright>6</TD>
+    <TD align=3Dright>50*</TD>
+    <TD align=3Dright>5</TD>
+    <TD>IRON</TD>
+    <TD>hilted polearm</TD></TR>
+  <TR>
+    <TD>voulge</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>125*</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>pole cleaver</TD></TR>
+  <TR>
+    <TD>bill-guisarme</TD>
+    <TD align=3Dright>7</TD>
+    <TD align=3Dright>120*</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>hooked polearm</TD></TR>
+  <TR>
+    <TD>bardiche</TD>
+    <TD align=3Dright>7</TD>
+    <TD align=3Dright>120*</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>long poleaxe</TD></TR>
+  <TR>
+    <TD>halberd</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>150*</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>angled poleaxe</TD></TR>
+  <TR>
+    <TH align=3Dleft>Spear</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>orcish spear</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>13</TD>
+    <TD>IRON</TD>
+    <TD>crude spear</TD></TR>
+  <TR>
+    <TD>spear</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>50</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>silver spear</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>36</TD>
+    <TD align=3Dright>2</TD>
+    <TD>SILV</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>elven spear</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>10</TD>
+    <TD>WOOD</TD>
+    <TD>runed spear</TD></TR>
+  <TR>
+    <TD>dwarvish spear</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>35</TD>
+    <TD align=3Dright>12</TD>
+    <TD>IRON</TD>
+    <TD>stout spear</TD></TR>
+  <TR>
+    <TH align=3Dleft>Javelin</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>javelin</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>10</TD>
+    <TD>IRON</TD>
+    <TD>throwing spear</TD></TR>
+  <TR>
+    <TH align=3Dleft>Trident</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>trident</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>25</TD>
+    <TD align=3Dright>8</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Lance</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>lance</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>180</TD>
+    <TD align=3Dright>4</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Bow</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>orcish bow</TD>
+    <TD align=3Dright>60</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>12</TD>
+    <TD>WOOD</TD>
+    <TD>crude bow</TD></TR>
+  <TR>
+    <TD>bow</TD>
+    <TD align=3Dright>60</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>24</TD>
+    <TD>WOOD</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>elven bow</TD>
+    <TD align=3Dright>60</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>12</TD>
+    <TD>WOOD</TD>
+    <TD>runed bow</TD></TR>
+  <TR>
+    <TD>yumi</TD>
+    <TD align=3Dright>60</TD>
+    <TD align=3Dright>30</TD>
+    <TD align=3Dright>0</TD>
+    <TD>WOOD</TD>
+    <TD>long bow</TD></TR>
+  <TR>
+    <TD>orcish arrow</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>20</TD>
+    <TD>IRON</TD>
+    <TD>crude arrow</TD></TR>
+  <TR>
+    <TD>arrow</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>55</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>silver arrow</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>12</TD>
+    <TD>SILV</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>elven arrow</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>20</TD>
+    <TD>WOOD</TD>
+    <TD>runed arrow</TD></TR>
+  <TR>
+    <TD>ya</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>15</TD>
+    <TD>METL</TD>
+    <TD>bamboo arrow</TD></TR>
+  <TR>
+    <TH align=3Dleft>Sling</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>sling</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>40</TD>
+    <TD>LEAT</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>flintstone</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>10</TD>
+    <TD align=3Dright>gems</TD>
+    <TD>MINL</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>other rocks/gems/glass</TD>
+    <TD align=3Dright>vary</TD>
+    <TD align=3Dright>vary</TD>
+    <TD align=3Dright>gems</TD>
+    <TD>vary</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Crossbow</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>crossbow</TD>
+    <TD align=3Dright>40</TD>
+    <TD align=3Dright>50</TD>
+    <TD align=3Dright>45</TD>
+    <TD>WOOD</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>crossbow bolt</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>55</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Dart</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>dart</TD>
+    <TD align=3Dright>2</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>60</TD>
+    <TD>IRON</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Shuriken</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>shuriken</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>1</TD>
+    <TD align=3Dright>35</TD>
+    <TD>IRON</TD>
+    <TD>throwing star</TD></TR>
+  <TR>
+    <TH align=3Dleft>Boomerang</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>boomerang</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>15</TD>
+    <TD>WOOD</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Whip</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>bullwhip</TD>
+    <TD align=3Dright>4</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>2</TD>
+    <TD>LEAT</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>rubber hose</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>20</TD>
+    <TD align=3Dright>0</TD>
+    <TD>PLAS</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TH align=3Dleft>Unicorn horn</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#cost">COST</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#wgt">WGT</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#prob">PROB</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#matl">MATL</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#appearance">A=
+PPEARANCE</A></TH></TR>
+  <TR>
+    <TD>unicorn horn</TD>
+    <TD align=3Dright>100</TD>
+    <TD align=3Dright>20*</TD>
+    <TD align=3Dright>tool</TD>
+    <TD>BONE</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD colSpan=3D6>&nbsp;</TD></TR>
+  <TR>
+    <TD>Two weapon combat</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>none</TD>
+    <TD>NONE</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>Riding</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>none</TD>
+    <TD>NONE</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>Bare-handed combat</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>hand</TD>
+    <TD>NONE</TD>
+    <TD>--</TD></TR>
+  <TR>
+    <TD>Martial arts</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>--</TD>
+    <TD align=3Dright>hand</TD>
+    <TD>NONE</TD>
+    <TD>--</TD></TR></TBODY></TABLE>
+<TABLE border=3D1 summary=3D"Weapon Skills and Damages" cellPadding=3D7>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TH><A id=3Dtable2 name=3Dtable2></A>WEAPON (Table 2)</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">A</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">B</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">C</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">H</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">K</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">M</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">P</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ra</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ro</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">S</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">T</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">V</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">W</A><=
+/TH>
+    <TH align=3Dmiddle>=3D<A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">+HIT=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SAVG=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LAVG=
+</A></TH></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Dagger</STRONG></TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>orcish dagger</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>dagger</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>silver dagger</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>athame</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven dagger</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d5</TD>
+    <TD>3</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Knife</STRONG></TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>worm tooth</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>knife (shito)</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>stiletto</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>scalpel</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>crysknife</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>3</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Axe</STRONG></TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>axe</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>battle-axe</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8+d4</TD>
+    <TD>7.0</TD>
+    <TD>d6+2d4</TD>
+    <TD>8.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Pick-axe</STRONG></TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>pick-axe</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>dwarvish mattock</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>-1</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD>
+    <TD>d8+2d6</TD>
+    <TD>11.5</TD></TR>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TH>WEAPON</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">A</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">B</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">C</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">H</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">K</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">M</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">P</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ra</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ro</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">S</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">T</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">V</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">W</A><=
+/TH>
+    <TH align=3Dmiddle>=3D<A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">+HIT=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SAVG=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LAVG=
+</A></TH></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Short sword</STRONG></TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>orcish short sword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d5</TD>
+    <TD>3</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>short sword (wakizashi)</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>dwarvish short sword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d7</TD>
+    <TD>4</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven short sword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Broadsword</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>broadsword (ninja-to)</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>runesword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven broadsword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6+d4</TD>
+    <TD>6.0</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Long sword</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>long sword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>katana</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>1</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Two-handed sword</STRONG></TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>two-handed sword</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD>
+    <TD>3d6</TD>
+    <TD>10.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>tsurugi</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d16</TD>
+    <TD>8.5</TD>
+    <TD>d8+2d6</TD>
+    <TD>11.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Scimitar</STRONG></TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>scimitar</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Saber</STRONG></TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>silver saber</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TH>WEAPON</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">A</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">B</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">C</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">H</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">K</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">M</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">P</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ra</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ro</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">S</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">T</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">V</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">W</A><=
+/TH>
+    <TH align=3Dmiddle>=3D<A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">+HIT=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SAVG=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LAVG=
+</A></TH></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Club</STRONG></TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>club</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>aklys</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Mace</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>mace</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Morning star</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>morning star</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Flail</STRONG></TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>flail (nunchaku)</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD>
+    <TD>2d4</TD>
+    <TD>5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>grappling hook</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Hammer</STRONG></TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>war hammer</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d4+1</TD>
+    <TD>3.5</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Quarterstaff</STRONG></TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>quarterstaff</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Polearm</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>partisan</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>fauchard</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>glaive (naginata)</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>bec-de-corbin</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>spetum</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD>
+    <TD>2d6</TD>
+    <TD>7</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>lucern hammer</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>guisarme</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>ranseur</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>2d4</TD>
+    <TD>5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>voulge</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>2d4</TD>
+    <TD>5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>bill-guisarme</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>bardiche</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2d4</TD>
+    <TD>5</TD>
+    <TD>3d4</TD>
+    <TD>7.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>halberd</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d10</TD>
+    <TD>5.5</TD>
+    <TD>2d6</TD>
+    <TD>7</TD></TR>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TH>WEAPON</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">A</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">B</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">C</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">H</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">K</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">M</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">P</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ra</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ro</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">S</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">T</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">V</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">W</A><=
+/TH>
+    <TH align=3Dmiddle>=3D<A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">+HIT=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SAVG=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LAVG=
+</A></TH></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Spear</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>orcish spear</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d5</TD>
+    <TD>3</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>spear</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>silver spear</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven spear</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d7</TD>
+    <TD>4</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>dwarvish spear</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Javelin</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>javelin</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Trident</STRONG></TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>trident</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD>
+    <TD>3d4</TD>
+    <TD>7.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Lance</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>lance</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Bow</STRONG></TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>orcish bow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>bow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven bow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>yumi</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>orcish arrow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d5</TD>
+    <TD>3</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>arrow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>silver arrow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>elven arrow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d7</TD>
+    <TD>4</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>ya</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>1</TD>
+    <TD>d7</TD>
+    <TD>4</TD>
+    <TD>d7</TD>
+    <TD>4</TD></TR>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TH>WEAPON</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">A</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">B</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">C</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">H</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">K</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">M</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">P</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ra</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">Ro</A>=
+</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">S</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">T</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">V</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#skill">W</A><=
+/TH>
+    <TH align=3Dmiddle>=3D<A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">+HIT=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">SAVG=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LDAM=
+</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#damages">LAVG=
+</A></TH></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Sling</STRONG></TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>sling</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>flintstone</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>other rocks/ gems/ glass</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Crossbow</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>crossbow</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>crossbow bolt</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d4+1</TD>
+    <TD>3.5</TD>
+    <TD>d6+1</TD>
+    <TD>4.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Dart</STRONG></TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>dart</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d3</TD>
+    <TD>2</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Shuriken</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>shuriken</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>2</TD>
+    <TD>d8</TD>
+    <TD>4.5</TD>
+    <TD>d6</TD>
+    <TD>3.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Boomerang</STRONG></TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>boomerang</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d9</TD>
+    <TD>5</TD>
+    <TD>d9</TD>
+    <TD>5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Whip</STRONG></TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>bullwhip</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>1</TD>
+    <TD>1</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>rubber hose</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD>
+    <TD>d3</TD>
+    <TD>2</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Unicorn horn</STRONG></TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>unicorn horn</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>1</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD>
+    <TD>d12</TD>
+    <TD>6.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Two weapon comba</STRONG>t</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>E</TD>
+    <TD>s</TD>
+    <TD>s</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Riding</STRONG></TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>s</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Bare-handed combat</STRONG>t</TD>
+    <TD>E</TD>
+    <TD>M</TD>
+    <TD>M</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>b</TD>
+    <TD>b</TD>
+    <TD>E</TD>
+    <TD>-</TD>
+    <TD>s</TD>
+    <TD>E</TD>
+    <TD>b</TD>
+    <TD>&nbsp;</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD>
+    <TD>d2</TD>
+    <TD>1.5</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD><STRONG>Martial arts</STRONG></TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>G</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>M</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>-</TD>
+    <TD>&nbsp;</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD>
+    <TD>d4</TD>
+    <TD>2.5</TD></TR></TBODY></TABLE>
+<P>Weapons are listed above first by skill class, then by increasing =
+damage.=20
+Alternative Japanese names are listed in parentheses (). The <A =
+id=3Dcost=20
+name=3Dcost></A>COST field denotes the base price of each weapon. <A =
+id=3Dwgt=20
+name=3Dwgt></A>WGT specifies the weight (100 zorkmids weighs 1); an =
+asterisk (*)=20
+signifies that the weapon requires two hands to wield.</P>
+<P><A id=3Dprob name=3Dprob></A>Weapons comprise 10% of all =
+randomly-generated items=20
+in the main dungeon, 0% in containers, 12% on the Rogue level, and 20% =
+in hell.=20
+PROB is the relative probability of each subtype. If an object is =
+mergable, then=20
+6d6 (6 to 36) quantity is generated. Weapons have a roughly 10% chance =
+of being=20
+blessed, roughly 10% of being cursed, and roughly 10% chance a non-zero=20
+enchantment (exponentially distributed). Poisonable weapons (all arrows, =
+
+crossbow bolts, darts, and shuriken) have a 1% chance of being generated =
+
+poisoned. Pick axes, unicorn horns, grappling hooks, gems, glass, rocks, =
+
+two-weapon combat, riding, bare-handed combat, and martial arts are also =
+listed=20
+here for their weapon skills and damage, even though they are not =
+technically=20
+weapons.</P>
+<P><A id=3Dmatl name=3Dmatl></A>The MATL column describes the material =
+of the=20
+weapon. This affects whether the weapon can be damaged (eroded); see the =
+section=20
+below to find out how to repair and prevent damage.</P>
+<TABLE border=3D1 summary=3D"Material of Weapons" cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH>MATL</TH>
+    <TH>DESCRIPTION</TH>
+    <TH>ERODES?</TH></TR>
+  <TR>
+    <TD>BONE</TD>
+    <TD>Horn or bone</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>IRON</TD>
+    <TD>Iron</TD>
+    <TD>Rusts/Corrodes</TD></TR>
+  <TR>
+    <TD>LEAT</TD>
+    <TD>Leather</TD>
+    <TD>Burns/Rots</TD></TR>
+  <TR>
+    <TD>METL</TD>
+    <TD>Other metal</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>MINL</TD>
+    <TD>Mineral</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>NONE</TD>
+    <TD>Not an item or unusual material</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>PLAS</TD>
+    <TD>Plastic or rubber</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>SILV</TD>
+    <TD>Silver</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>WOOD</TD>
+    <TD>Wood</TD>
+    <TD>Burns/Rots</TD></TR></TBODY></TABLE>
+<P><A id=3Dappearance name=3Dappearance></A>Some character classes know =
+the true=20
+identity of some or all weapons at the start of the game. Weapons whose =
+identity=20
+has not yet been established will have the APPEARANCE listed.</P>
+<P><A id=3Dskill name=3Dskill></A>Each character class has a limit to =
+the amount of=20
+skill that can be obtained in each weapon class. The maximum skill level =
+is=20
+noted under the ABCH KMPRaRoSTVW columns: - for restricted (cannot =
+advance=20
+beyond unskilled), b for basic skill, s for skilled, E for expert, M for =
+master,=20
+and G for grand master. Weapon skills are explained further below.</P>
+<P><A id=3Ddamages name=3Ddamages></A>Finally, information about each =
+weapon's=20
+ability to hit and cause damage is listed. A few weapons have an =
+additional=20
+bonus to hit, listed in the +HIT column. The base amount of damage to =
+small=20
+("tiny", "small", and "medium") and large ("large", "huge", and =
+"gigantic")=20
+monsters is given in the SDAM and LDAM fields, and is expressed in terms =
+of die=20
+rolls. For example, 2d6 means 2 dice which can each range from 1 to 6, =
+for a=20
+total from 2 to 12. The average amount of damage (useful for comparing =
+weapons)=20
+against small and large monsters is given under SAVG and LAVG.</P>
+<H2><A id=3Dskills name=3Dskills></A>Weapon skills</H2>
+<BLOCKQUOTE>
+  <P>"First lesson," Jon said. "Stick them with the pointy end." <BR>-- =
+George=20
+  R.R. Martin, "A Game of Thrones"</P></BLOCKQUOTE>
+<P>The table of weapons above is organized by "skill classes". Continued =
+use of=20
+a weapon gives you practice in its skill class. With enough practice in =
+a skill=20
+class and experience levels, you may have the opportunity to advance =
+your skill=20
+level in that skill class. This will in turn lead to an improvement in =
+your=20
+chance to hit and the damage produced by weapons in that class.</P>
+<TABLE border=3D1 summary=3D"Skill levels and bonuses, part 1" =
+cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TD>&nbsp;</TD>
+    <TH colSpan=3D2>NEEDED</TH>
+    <TH colSpan=3D2>WEAPON</TH>
+    <TH colSpan=3D2>2-WEAP</TH></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>SKILL LEVEL</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#hits">HITS</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#exp">EXP</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++HIT</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++DAM</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++HIT</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++DAM</A></TH></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Unskilled</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>-4</TD>
+    <TD>-2</TD>
+    <TD>-9</TD>
+    <TD>-3</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Basic</TD>
+    <TD>20</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>-7</TD>
+    <TD>-1</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Skilled</TD>
+    <TD>80</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD>1</TD>
+    <TD>-5</TD>
+    <TD>0</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Expert</TD>
+    <TD>180</TD>
+    <TD>3</TD>
+    <TD>3</TD>
+    <TD>2</TD>
+    <TD>-3</TD>
+    <TD>1</TD></TR></TBODY></TABLE>
+<TABLE border=3D1 summary=3D"Weapon skills and bonuses, part 2" =
+cellPadding=3D7>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TD>&nbsp;</TD>
+    <TH colSpan=3D2 align=3Dmiddle>NEEDED</TH>
+    <TH colSpan=3D2>RIDING</TH>
+    <TH>BARE-HAND</TH>
+    <TH>MARTIAL</TH></TR>
+  <TR align=3Dmiddle>
+    <TH align=3Dleft>SKILL LEVEL</TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#hits">HITS</A=
+></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#exp">EXP</A><=
+/TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++HIT</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++DAM</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++DAM</A></TH>
+    <TH><A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/weap-343.html#sk-damage">=3D=
++DAM</A></TH></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Unskilled</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>-2</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>+1</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Basic</TD>
+    <TD>20</TD>
+    <TD>1</TD>
+    <TD>-1</TD>
+    <TD>0</TD>
+    <TD>+1</TD>
+    <TD>+3</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Skilled</TD>
+    <TD>80</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>+1</TD>
+    <TD>+1</TD>
+    <TD>+4</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Expert</TD>
+    <TD>180</TD>
+    <TD>2</TD>
+    <TD>0</TD>
+    <TD>+2</TD>
+    <TD>+2</TD>
+    <TD>+6</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Master</TD>
+    <TD>320</TD>
+    <TD>2</TD>
+    <TD>--</TD>
+    <TD>--</TD>
+    <TD>+2</TD>
+    <TD>+7</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Grand master</TD>
+    <TD>500</TD>
+    <TD>3</TD>
+    <TD>--</TD>
+    <TD>--</TD>
+    <TD>+3</TD>
+    <TD>+9</TD></TR></TBODY></TABLE>
+<P>There are specifically two requirements needed to advance a skill =
+class: a=20
+number of successful hits by any weapon in the skill class and a number =
+of=20
+experience levels. A hit is considered successful if it causes more than =
+one=20
+point of damage to a monster, regardless if the weapon is wielded or =
+thrown. The=20
+particular damage value used for this determination is described in =
+"Calculating=20
+damage" below.</P>
+<P><A id=3Dhits name=3Dhits></A>The number of HITS needed to advance to =
+a particular=20
+SKILL LEVEL is shown in the tables above; this is cumulative from the =
+beginning=20
+of the game (although if you start at basic level in a skill you will be =
+
+pre-credited with the 20 hits needed to achieve it). For advancing =
+riding skill,=20
+100 turns spent moving is equivalent to one hit.</P>
+<P>The other criterion used to advance skill levels is experience =
+levels. Each=20
+time you gain an experience level, you earn a "skill slot" that is used =
+up when=20
+you an advance a skill. Thus you can earn a maximum of 29 skill slots, =
+by=20
+advancing from level 1 to level 30. If you lose an experience level, you =
+lose=20
+the associated skill slot; if that skill slot was used to enhance a =
+skill, you=20
+will lose the most recently earned skill and are refunded the remaining =
+skill=20
+slots from that skill level.</P>
+<P><A id=3Dexp name=3Dexp></A>The tables above also lists the number of =
+additional=20
+EXPerience levels (skill slots) needed to advance to that skill level =
+(note the=20
+difference between the two tables). Unlike the number of hits, this =
+number is=20
+not cumulative. Thus, it takes 2 skill slots to advance a weapon from =
+basic to=20
+skilled, no matter if you started with it as basic or unskilled. Note =
+that these=20
+slots are shared with spell skills.</P>
+<P>When you start the game, you will have basic skill for the weapons =
+and=20
+weapon-tools in your initial inventory, have basic skill in bare-handed =
+combat=20
+if you can advance it beyond expert, basic skill in riding if a Knight, =
+and will=20
+be unskilled in all other weapon categories. When you reach the point =
+when you=20
+can advance a skill category, you will see the message, "You feel more =
+confident=20
+in your (weapon/fighting) skills." You can then advance the skill using =
+the=20
+#enhance command (alt-e on some systems). You may choose to not advance =
+a skill=20
+level if you want to reserve the skill slots for a different skill. =
+After=20
+advancing a skill, if you are ready to advance another skill (possibly =
+the same=20
+one), you will get the message "You feel you could be more dangerous!" =
+The=20
+#enhance command can also be used at any time to check your current =
+skill=20
+levels.</P>
+<P>Of course, there are limits to how much you can advance a particular =
+skill=20
+category. Each character class has different maximum levels for each =
+skill=20
+category, as can be seen in weapons table 2 above. These differences =
+help to=20
+distinguish the various character classes late in the game. For example, =
+note=20
+that many of the fighter classes have skill with swords, whereas priests =
+are=20
+restricted from edged weapons but are good with bludgeons and missiles. =
+Note=20
+that you can usually advance your starting weapons and your Quest =
+Artifact (if=20
+it is a weapon) to expert skill.</P>
+<P>The term "restricted" is used to describe skill categories that are=20
+permanently unskilled. They do not appear in the #enhance menu, although =
+you=20
+will see skills that are unskilled and can be advanced. If you receive =
+an=20
+artifact weapon from crowning or sacrificing, and the artifact's skill =
+category=20
+is restricted, then the restriction will be removed and you will be able =
+to=20
+advance that skill to basic level; only hits made after the =
+unrestriction count=20
+towards this advancement.</P>
+<P>Note that only character classes who are unrestricted in two-weapon =
+skill are=20
+able to use the #twoweapon command in their unpolymorphed form.</P>
+<P><A id=3Dsk-damage name=3Dsk-damage></A>Weapon skills affect your game =
+by adding a=20
+bonus to your chance to hit and your damage. The WEAPON +HIT and +DAM =
+columns in=20
+the table above shows the amount of this bonus for each skill level.</P>
+<P>If you attack a monster while not wielding any weapon, you will cause =
+either=20
+bare-handed damage (d2) or martial arts (d4) damage. You only cause one =
+or the=20
+other, depending on your character class. These skills can be enhanced =
+just like=20
+weapon skills -- even to levels beyond those of weapons (master and =
+grand=20
+master) -- and have their own +DAMage bonuses. The martial arts bonus =
+also=20
+applies when attacking a monster by kicking it.</P>
+<H2><A id=3Dchancehit name=3Dchancehit></A>Calculating the chance to =
+hit</H2>
+<P>(Adapted from the spoiler "weapons", by Robert DeLoura and Boudewijn=20
+Waijers.)</P>
+<P>There are four ways to attack a monster with a weapon. You can hit =
+the=20
+monster directly by wielding the weapon and stepping into that monster's =
+square.=20
+If no weapon is wielded, you use your bare-handed or martial arts skill. =
+Second,=20
+you can use the throw command to throw a weapon or any other object =
+(just type=20
+the object's inventory letter), or the fire command to throw the object=20
+currently in your quiver. Missiles (such as arrows) are fired from =
+launchers=20
+(such as bows) by wielding the launcher and throwing the missile. Third, =
+you can=20
+kick an object at a monster, or just kick a monster in an adjacent =
+square.=20
+Finally, you can apply a wielded polearm (lances are, for combat =
+purposes,=20
+considered polearms) at a monster at a distance: if your skill in that =
+weapon is=20
+basic or worse, the monster must be exactly two squares away =
+orthogonally; if=20
+skilled, it may also be a knight's-move away; if expert (can only apply =
+to=20
+lances), anywhere at two moves' distance.</P>
+<P>It is possible that you may hit with more than one weapon in a =
+turn.</P>
+<UL>
+  <LI>If you are using two-weapon combat, then if your primary weapon =
+hits and=20
+  is not destroyed in the process, and the monster is not dislodged from =
+its=20
+  position, your secondary weapon also automatically hits.=20
+  <LI>When firing any arrows from any bow, bolts from a crossbow, stones =
+from a=20
+  sling, or throwing daggers, darts or shuriken, there may be a chance =
+that=20
+  several get shot in one turn. The maximum number starts at 1, and =
+receives the=20
+  following additions:=20
+  <UL>
+    <LI>1 if you are skilled in the weapon.=20
+    <LI>2 if you are expert in the weapon.=20
+    <LI>1 if you are a Ranger, a Rogue throwing daggers, or a Samurai =
+firing ya=20
+    from a yumi.=20
+    <LI>1 if you are an elf firing elven arrows from an elven bow.=20
+    <LI>1 if you are an orc firing orcish arrows from an orcish bow.=20
+    <LI>If this results in a maximum higher than the number of missiles =
+you=20
+    have, the maximum is reduced to that number. </LI></UL>
+  <P>The number actually fired on any given turn is d(maximum). This can =
+be=20
+  capped by giving a numerical prefix to the fire or throw command; =
+doing so=20
+  will only decrease, never increase the number you fire.</P></LI></UL>
+<P>Your chance to hit is based on the sum of the following items. The =
+larger the=20
+number, the better your chance to hit.</P>
+<P>The following are added to all attacks:</P>
+<UL>
+  <LI>The target monster's armor class.=20
+  <LI>Your experience level, or your hit dice if you are polymorphed.=20
+  <LI>Your total numerical luck, which can range from -13 to +13.=20
+  <LI>A bonus based on your dexterity (see DEXT +HIT in the table =
+below).=20
+  <LI>Your increase accuracy bonus (such as from rings).=20
+  <LI>1 if you are in elven form and are attacking an orc (any o or =
+orcish=20
+  undead).=20
+  <LI>2 if the target monster was asleep. It will awaken, whether you =
+hit or=20
+  miss it.=20
+  <LI>4 if the target monster was paralyzed. There is a 10% chance that =
+the=20
+  monster will be unfrozen. </LI></UL>
+<P>The following are added only when attacking a monster directly, with =
+a=20
+wielded weapon or bare-handed (melee attacks):</P>
+<UL>
+  <LI>1 bonus for attacking directly.=20
+  <LI>A bonus based on your strength (see STRENGTH +HIT in the table =
+below).=20
+  <LI>1 if you are XL 1 or 2 (game-balancing beginner's luck).=20
+  <LI>-1 if you are burdened, -3 if stressed, -5 if strained. You cannot =
+attack=20
+  in any way if you are overtaxed or overloaded.=20
+  <LI>-3 if you are trapped.=20
+  <LI>2 if the target monster was stunned.=20
+  <LI>2 if the target monster was fleeing.=20
+  <LI>-20 if you are a Monk wearing body armour.=20
+  <LI>If you are a barehanded Monk not wearing body armour or a shield, =
+2 plus=20
+  your experience level divided by three. </LI></UL>
+<P>The following are added only when attacking by throwing, firing or =
+kicking a=20
+weapon, or applying a polearm (long- and medium-range attacks):</P>
+<UL>
+  <LI>-1 penalty for attacking from a distance.=20
+  <LI>+2 to -4, depending on your distance to the target monster.=20
+  <LI>-2 to +5, depending on the size of the target monster.=20
+  <LI>2 with a heavy iron ball.=20
+  <LI>4 with a boomerang.=20
+  <LI>2 with throwing weapons (daggers (except athames), knives (except =
+scalpels=20
+  and worm teeth), spears, javelins, war hammers, aklys, darts, =
+shuriken)=20
+  <LI>-2 with non-throwing weapons.=20
+  <LI>6 with a boulder.=20
+  <LI>1 if you are an elf or Samurai wielding any bow and shooting any =
+arrow.=20
+  This bonus is 2 when an elf uses an elven bow or a Samurai uses a =
+yumi.=20
+  <LI>Some gloves are a hindrance if you wield any bow class. Gauntlets =
+of power=20
+  are -2, and gauntlets of fumbling are -3.=20
+  <LI>-4 if you throw or kick a missile without wielding a matching =
+launcher:=20
+  <TABLE border=3D1 summary=3D"Launchers and Missiles" cellPadding=3D7>
+    <TBODY>
+    <TR vAlign=3Dtop>
+      <TH>LAUNCHER(S)</TH>
+      <TH>MISSILE(S)</TH></TR>
+    <TR vAlign=3Dtop>
+      <TD>orcish bow, bow, elven bow, yumi</TD>
+      <TD>orcish arrow, arrow, silver arrow, elven arrow, ya</TD></TR>
+    <TR vAlign=3Dtop>
+      <TD>sling</TD>
+      <TD>gems and stones</TD></TR>
+    <TR vAlign=3Dtop>
+      <TD>crossbow</TD>
+      <TD>crossbow bolt</TD></TR></TBODY></TABLE>
+  <LI>Enchantment of the launcher you are wielding, if you threw or =
+kicked a=20
+  matching missile.=20
+  <LI>-1 if your launcher is damaged, -2 if it is very damaged, or -3 if =
+it is=20
+  thoroughly damaged. This only applies when you kick or throw a =
+matching=20
+  missile.=20
+  <LI>An artifact launcher +HIT bonus, if any applies. </LI></UL>
+<P>If the target monster is being attacked with a weapon or weapon-tool =
+-- your=20
+(primary) wielded one when attacking directly or with a polearm, or the =
+missile=20
+if thrown or kicked -- there are additional bonuses based on that =
+object:</P>
+<UL>
+  <LI>The object's enchantment.=20
+  <LI>The object type's to-hit bonus. See +HIT in weapons table 2.=20
+  <LI>A weapon skill +HIT bonus if not using two weapons; see WEAPON =
++HIT in the=20
+  weapon skills table above, for the current skill level of that weapon. =
+
+  <LI>A penalty if using two weapons and/or riding while poorly skilled; =
+see=20
+  2-WEAP +HIT and RIDING +HIT in the weapon skills table above. (For the =
+former=20
+  purpose, your skill is considered to be the lower of your actual =
+two-weapon=20
+  skill and your skill in your primary weapon.)=20
+  <LI>An additional -2 if using two weapons while riding, regardless of =
+skill.=20
+  <LI>2 for blessed weapon(-tool) against a demon or undead monster.=20
+  <LI>2 for weapons in spear class against X, D, J, N, or H.=20
+  <LI>2 for a trident against snakes or sea monsters out of water.=20
+  <LI>4 for a trident against any swimmer in water.=20
+  <LI>2 for weapons in pick-axe class against xorns and earth =
+elementals.=20
+  <LI>An artifact +HIT bonus, if any applies. </LI></UL>
+<P>A die from 1 to 20 is rolled and compared to the to-hit total. If the =
+die=20
+roll is less than the to-hit total (or equal when throwing or kicking), =
+you hit=20
+the monster and inflict damage as described below; otherwise, you miss =
+the=20
+monster. The die roll is also used in determining if certain "chance" =
+artifact=20
+effects occur (e.g., beheading or Magicbane's special attacks).</P>
+<P>There are also some special cases. If you are swallowed or engulfed =
+by a=20
+monster, then direct or thrown attacks always succeed, although you will =
+be=20
+unable to kick or apply polearms. Unicorns will always catch gems and =
+glass that=20
+is thrown or kicked at them, causing no damage. Your Quest Leader will =
+always=20
+catch your Quest Artifact, and return it to you if peaceful.</P>
+<P>Here is the table of attribute adjustments:</P>
+<TABLE border=3D1 summary=3D"Combat Bonuses for Strength and Dexterity"=20
+cellPadding=3D7>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>&nbsp;</TD>
+    <TH colSpan=3D2>STRENGTH</TH>
+    <TH>DEXT</TH>
+    <TH class=3Dcolor align=3Dmiddle>&nbsp;</TH>
+    <TD>&nbsp;</TD>
+    <TH colSpan=3D2>STRENGTH</TH>
+    <TH>DEXT</TH></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TH>ATTRIBUTE</TH>
+    <TH>=3D+HIT</TH>
+    <TH>=3D+DAM</TH>
+    <TH>=3D+HIT</TH>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TH>ATTRIBUTE</TH>
+    <TH>=3D+HIT</TH>
+    <TH>=3D+DAM</TH>
+    <TH>=3D+HIT</TH></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>3</TD>
+    <TD>-2</TD>
+    <TD>-1</TD>
+    <TD>-3</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>18/76 - 18/90</TD>
+    <TD>2</TD>
+    <TD>4</TD>
+    <TD>--</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>4 to 5</TD>
+    <TD>-2</TD>
+    <TD>-1</TD>
+    <TD>-2</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>18/91 - 18/99</TD>
+    <TD>2</TD>
+    <TD>5</TD>
+    <TD>--</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>6 to 7</TD>
+    <TD>-1</TD>
+    <TD>0</TD>
+    <TD>-1</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>18/**</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>--</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>8 to 14</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>19</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>5</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>15</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>1</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>20</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>6</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>16</TD>
+    <TD>0</TD>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>21</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>7</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>17</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>3</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>22</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>8</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>18</TD>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD>4</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>23</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>9</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>18/01 - 18/50</TD>
+    <TD>1</TD>
+    <TD>3</TD>
+    <TD>--</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>24</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>10</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TD>18/51 - 18/75</TD>
+    <TD>2</TD>
+    <TD>3</TD>
+    <TD>--</TD>
+    <TD class=3Dcolor align=3Dmiddle>&nbsp;</TD>
+    <TD>25</TD>
+    <TD>3</TD>
+    <TD>6</TD>
+    <TD>11</TD></TR></TBODY></TABLE>
+<H2><A id=3Dcalcdamage name=3Dcalcdamage></A>Calculating damage</H2>
+<P>(Adapted from the spoiler "weapons", by Robert DeLoura and Boudewijn=20
+Waijers.)</P>
+<P>If you hit directly without wielding anything, you inflict either =
+bare-=20
+handed base damage (d2) or martial arts base damage (d4). No base damage =
+occurs=20
+against shades. If the base damage is more than one point, you exercise =
+that=20
+weapon skill. Added to this is a d4 bonus if wearing blessed gloves =
+while=20
+fighting undead or demons, or d20 if wearing a silver ring(s) and no =
+gloves=20
+while fighting a silver-hating monster. There is also a small chance of =
+stunning=20
+your opponent and causing it to stagger back a space (if it can); this =
+will only=20
+happen if you are wearing neither body armour nor shield and are in your =
+natural=20
+form.</P>
+<P>Damage from weapons, weapon-tools, gems, stones, ball, or chain is =
+the total=20
+of the following:</P>
+<TABLE border=3D0 summary=3D"Calculating damage from a wielded item"=20
+  cellPadding=3D7><TBODY>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>Impacting object's base damage (SDAM or LDAM above, =
+accordingly)</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>Impacting object's enchantment (weapon and weapon-tool =
+only)</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD colSpan=3D2>
+      <HR>
+    </TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>=3D</TD>
+    <TD>Subtotal A</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>#</TD>
+    <TD>Subtotal A is set to zero if attacking thick-skinned creature =
+with=20
+      item made of venom, wax, food, paper, cloth, or leather (namely, a =
+
+      bullwhip). Thick-skinned creatures include: gargoyle, winged =
+gargoyle, all=20
+      mimics, mumak, titanothere, baluchitherium, mastodon, all baby and =
+adult=20
+      dragons (D), earth elemental, all baby and adult nagas (N), xorn,=20
+      skeleton, gold golem, wood golem, clay golem, stone golem, glass =
+golem,=20
+      iron golem, horned devil, barbed devil, shark, crocodile, =
+salamander,=20
+      Chromatic Dragon, and Ixoth.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>#</TD>
+    <TD>Subtotal A is set to zero if attacking a shade without =
+silver.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>#</TD>
+    <TD>Heavy iron ball sets subtotal A to 1-25, depending on =
+weight.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>d4 if using a blessed item against undead or demon. Undead =
+include all=20
+      liches (L), all mummies (M), all vampires (V), all wraiths/wights =
+(W), all=20
+      zombies (Z), ghosts, and shades. Demons are all &amp; except =
+Death,=20
+      Pestilence, Famine, the mail daemon, djinn, and sandestins. This =
+bonus=20
+      can't be doubled.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>d4 if using an axe or battle axe against a wooden creature =
+(namely,=20
+      wood golems). This bonus can't be doubled.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>d20 if silver weapon against silver-hating creature. These =
+include all=20
+      were-creatures (in both human and creature form); all vampires =
+(V); all=20
+      demons (&amp;) except Death, Pestilence, Famine, the mail daemon, =
+djinn,=20
+      and sandestins; shades; and all imps (i) except tengu. This bonus =
+can't be=20
+      doubled.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>erosion penalty from whichever of rust/fire damage or =
+rot/corrosion=20
+      damage is greater (-1 =3D damaged, -2 =3D very damaged, -3 =3D =
+thoroughly=20
+      damaged). This won't reduce subtotal B beyond 1.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD colSpan=3D2>
+      <HR>
+    </TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>=3D</TD>
+    <TD>Subtotal B. This is the value that must be greater than one for =
+the=20
+      hit to be counted toward a weapon skill.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>If you are a Rogue in natural form hitting a fleeing monster, =
+aren't=20
+      stuck or using two weapons, and subtotal B is more than one point, =
+you=20
+      strike from behind with an additional random damage from 1 to your =
+
+      experience level.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>2d10 for a successful joust (2d2 if with a secondary weapon). =
+This=20
+      bonus can't be doubled. To joust successfully, you need to hit =
+with a=20
+      lance in melee while riding (and not fumbling or stunned), and the =
+chance=20
+      is dependent on your skill in lance (or, if two-weaponing, the =
+lower of=20
+      your skill in two-weapon combat and in lance): 20% at unskilled, =
+40% at=20
+      basic, 60% at skilled, 80% at expert. The monster will be stunned =
+for a=20
+      turn and thrown back a square (if possible). There is a small =
+chance that=20
+      the lance will break (dependent on your Luck). Successfully =
+jousting will=20
+      always exercise your weapon skill.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>1 if you're a Samurai using ya with a yumi, or are an elf using =
+elven=20
+      arrows with an elven bow. Polymorph doesn't count.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>+</TD>
+    <TD>Artifact damage bonus, doubling, and/or special attacks. This =
+may=20
+      apply only against certain creatures. See <A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/art1-343.html">art1-343.htm=
+l</A>.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD colSpan=3D2>
+      <HR>
+    </TD></TR>
+  <TR>
+    <TD>=3D</TD>
+    <TD>Total damage</TD></TR></TBODY></TABLE>
+<P>Hitting directly with a launcher, hitting directly with a missile, =
+using the=20
+wrong missile with a launcher, or using a polearm at close range (unless =
+
+mounted) causes only d2 damage (zero against shades) and does not =
+exercise your=20
+weapon skill. If you attack directly with a boomerang, there's a chance=20
+(decreasing with higher Luck) that the boomerang breaks, causing another =
+1 point=20
+of damage (no damage to shades).</P>
+<P>Damage from other objects are as follows. No weapon skills are =
+exercised.</P>
+<TABLE border=3D1 summary=3D"Damage from non-weapons" cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH align=3Dleft>OBJECT</TH>
+    <TH align=3Dleft>DAMAGE</TH></TR>
+  <TR vAlign=3Dtop>
+    <TD>corpses</TD>
+    <TD>2 to 8, depending on size. Cockatrice/chickatrice corpses =
+(nicknamed=20
+      "rubber chickens") turn monsters to stone, or do no damage if =
+monster is=20
+      stoning- resistant.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>eggs</TD>
+    <TD>1, penalize luck if you laid it, and no increase damage bonus.=20
+      <BR>Cockatrice/chickatrice eggs (nicknamed "stoning grenades") =
+turn=20
+      monsters to stone, or do no damage if monster is =
+stoning-resistant.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>clove of garlic</TD>
+    <TD>1, makes undead (but NOT demons) flee for 2d4 (more) =
+turns.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>cream pie, blinding venom</TD>
+    <TD>0, blinds target; no increase damage bonus.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>acid venom</TD>
+    <TD>2d6 to monsters not acid resistant; no increase damage =
+bonus.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>potions</TD>
+    <TD>See <A=20
+      =
+href=3D"http://www.steelypips.org/nethack/343/pot1-343.html">pot1-343.htm=
+l</A>.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>expensive camera</TD>
+    <TD>0, breaks camera, no increase damage bonus.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>mirror</TD>
+    <TD>1, breaks mirror (even on shades) with a -2 penalty to your=20
+luck.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>boulder</TD>
+    <TD>d20.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>heavy iron ball</TD>
+    <TD>1 to 25, depending on weight and subject to rusting.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>iron chain</TD>
+    <TD>d4+1, subject to rusting.</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD>other objects</TD>
+    <TD>1 to 6, depending on weight. Silver objects receive a +d20 bonus =
+
+      against a silver-hating creature (see above for =
+list).</TD></TR></TBODY></TABLE>
+<P>Additional damage can occur to all of the above attacks (even against =
+shades;=20
+however, the first two bonuses are not applied if your current damage =
+total is=20
+less than one):</P>
+<UL>
+  <LI>Your increase damage bonus (such as from rings), unless if noted =
+above.=20
+  <LI>The STRENGTH +DAM bonus from the attributes adjustment table =
+above. This=20
+  won't occur if you aren't allowed the increase damage bonus, or if =
+you're=20
+  firing a missile from a launcher.=20
+  <LI>If you scored a hit that exercises a weapon skill, the +DAM bonus =
+for that=20
+  weapon skill or for two-weapon combat skill (and for riding skill if=20
+  applicable, unless using two weapons). If fighting with two weapons, =
+your=20
+  skill for this purpose is considered to be the lower of your actual =
+two-weapon=20
+  skill and your skill in the single weapon scoring the hit.=20
+  <LI>If you hit a non-poison-resistant monster with a fired poisoned =
+missile,=20
+  there's a 10% chance of an instant kill, else you inflict d6 more =
+damage.=20
+</LI></UL>
+<P>Your total damage is limited from being negative. If you are allowed =
+an=20
+increase damage bonus, you will score at least 1 point of damage.</P>
+<P>When you attack a monster and are polymorphed into a creature, you =
+usually=20
+use the attacks of your polymorphed form. However, if you are in a form =
+that can=20
+use a weapon, are wielding something, and attempt a weapon, claw, kick, =
+bite,=20
+sting, touch, butt, or tentacle attack, then you will attack with the =
+wielded=20
+object instead.</P>
+<P>You may sometimes shatter your opponent's weapon if you are wielding =
+a=20
+two-handed weapon, or are a Samurai wielding a katana with nothing in =
+your=20
+off-hand. Your skill with your weapon must be skilled or better. The =
+chance=20
+depends upon your weapon's erosion and the ability of your opponent's =
+weapon to=20
+resist; it is about 2.5% under the best circumstances. This attack also =
+causes=20
+the monster to flee for 2d3 (more) turns.</P>
+<P>Some monsters fight back passively when attacked. Also, when a black =
+or brown=20
+pudding is hit directly with an iron weapon, it will be cloned after =
+taking=20
+damage.</P>
+<H2><A id=3Dlaunch name=3Dlaunch></A>What's the relationship between =
+launcher and=20
+missile modifiers?</H2>
+<P>A very brief summary (for the full details, see the above two =
+sections) of=20
+which effects enchantments, erosions, and artifact combat bonuses will =
+have when=20
+using a launcher and missile in the correct combination:</P>
+<TABLE border=3D1 summary=3D"launcher and missile modifiers" =
+cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TH>MODIFIER</TH>
+    <TH>TO HIT</TH>
+    <TH>DAMAGE</TH></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Launcher enchantment</TD>
+    <TD>YES</TD>
+    <TD>NO</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Launcher erosion</TD>
+    <TD>YES</TD>
+    <TD>NO</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Launcher artifact to-hit bonus</TD>
+    <TD>YES</TD>
+    <TD>NO</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Launcher artifact damage bonus</TD>
+    <TD>N/A</TD>
+    <TD>N/A</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Missile enchantment</TD>
+    <TD>YES</TD>
+    <TD>YES</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Missile erosion</TD>
+    <TD>NO</TD>
+    <TD>YES</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Missile artifact to-hit bonus</TD>
+    <TD>YES</TD>
+    <TD>NO</TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dleft>Missile artifact damage bonus</TD>
+    <TD>NO</TD>
+    <TD>YES</TD></TR></TBODY></TABLE>
+<H2><A id=3Dearly name=3Dearly></A>Choosing an early weapon</H2>
+<P>Most players know that the best weapons in NetHack are artifacts (see =
+<A=20
+href=3D"http://www.steelypips.org/nethack/343/art1-343.html">art1-343.htm=
+l</A> and=20
+<A=20
+href=3D"http://www.steelypips.org/nethack/343/art2-343.html">art2-343.htm=
+l</A>).=20
+However, you usually won't find a good artifact weapon until you are =
+well into a=20
+game. Which weapons should you use until then?</P>
+<P>The best general advice is to use the same weapon preferences that =
+monsters=20
+use. Their choices of wielded weapons for hand-to-hand combat, from most =
+to=20
+least preferred, are as follows:</P>
+<BLOCKQUOTE>
+  <P>cockatrice/chickatrice corpse, tsurugi, runesword, dwarvish =
+mattock,=20
+  two-handed sword, battle-axe, katana, unicorn horn, crysknife, =
+trident, long=20
+  sword, elven broadsword, broadsword, scimitar, silver saber, morning =
+star,=20
+  elven short sword, dwarvish short sword, short sword, orcish short =
+sword,=20
+  mace, axe, dwarvish spear, silver spear, elven spear, spear, orcish =
+spear,=20
+  flail, bullwhip, quarterstaff, javelin, aklys, club, pick-axe, rubber =
+hose,=20
+  war hammer, silver dagger, elven dagger, dagger, orcish dagger, =
+athame,=20
+  scalpel, knife, worm tooth.</P></BLOCKQUOTE>
+<P>If monsters can attack you from a distance with a ranged weapon or =
+polearm,=20
+they will use them in the following order:</P>
+<BLOCKQUOTE>
+  <P>halberd, bardiche, spetum, bill-guisarme, voulge, ranseur, =
+guisarme,=20
+  glaive, lucern hammer, bec-de-corbin, fauchard, partisan, lance, =
+dwarvish=20
+  spear, silver spear, elven spear, spear, orcish spear, javelin, =
+shuriken, ya,=20
+  silver arrow, elven arrow, arrow, orcish arrow, crossbow bolt, silver =
+dagger,=20
+  elven dagger, dagger, orcish dagger, knife, flint stone, rock, =
+loadstone,=20
+  luckstone, dart, boomerang (not yet implemented), cream =
+pie.</P></BLOCKQUOTE>
+<P>Classes that are good fighters usually start with good weapons (for =
+example,=20
+BKRaSV), but other classes may want to switch to a different type of =
+weapon as=20
+soon as possible. During the first few levels of the game, you can =
+#untrap dart=20
+and arrow traps to get some ranged weapons to throw. Daggers (especially =
+elven)=20
+are often left by monsters in the first few levels and in the mines, and =
+have a=20
++2 to-hit bonus. Pick-axes (good to practice skill for dwarvish =
+mattock),=20
+unicorn horns, and quarterstaffs (from wood golems) appear somewhat =
+later in the=20
+game and are good choices for certain classes.</P>
+<P>Note that you will start out unskilled in weapon categories other =
+than your=20
+starting weapons, which makes fighting with other weapons difficult =
+until you=20
+can advance them to basic. Using petrifying corpses requires gloves and =
+has=20
+other risks. Naturally, there are other ways to fight and defend =
+yourself as=20
+well.</P>
+<H2><A id=3Denchant name=3Denchant></A>Weapon enchantment and =
+erosion</H2>
+<P>(Adapted from the spoiler "enchant.lim" by Peter Snelling and =
+Boudewijn=20
+Waijers.)</P>
+<P>Your weapon's enchantment (e.g., -1, +0, +2) affects both your chance =
+to hit=20
+monsters and the amount of damage produced. However, damage is reduced =
+if your=20
+weapon has been eroded by rust/fire or corrosion/rotting.</P>
+<P>Some weapons are made of materials that do not erode (see weapons =
+table 1),=20
+but others must be specially protected to prevent erosion. This section =
+explains=20
+how to enchant your weapon and protect it from erosion.</P>
+<P>All of the weapons and tools listed above can only be enchanted by =
+reading=20
+scrolls of enchant weapon. You must wield the weapon first. The effect =
+is=20
+dependent upon the blessed status of the scroll and the weapon's =
+enchantment=20
+before reading the scroll. A blessed scroll adds 1 or more enchantments, =
+based=20
+on the current enchantment (see table below). An uncursed scroll adds =
+only one=20
+enchantment. Cursed scrolls remove one enchantment; however, artifacts =
+other=20
+than Sting or Orcrist are not affected by cursed scrolls of enchant =
+weapon.</P>
+<TABLE border=3D1 summary=3D"Weapon Enchantment" cellPadding=3D7>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TH>Current enchantment</TH>
+    <TD align=3Dleft>-3 to -1</TD>
+    <TD>+0 to +2</TD>
+    <TD>+3 to +5</TD>
+    <TD>+6 to +8</TD>
+    <TD>+9 or more</TD></TR>
+  <TR vAlign=3Dtop align=3Dmiddle>
+    <TH align=3Dleft>Additional possible</TH>
+    <TD>1 to 4</TD>
+    <TD>1 to 3</TD>
+    <TD>1 to 2</TD>
+    <TD>1</TD>
+    <TD>0 to 1</TD></TR></TBODY></TABLE>
+<P>A blessed or uncursed scroll will further make a cursed weapon =
+uncursed, and=20
+will convert a worm tooth into a crysknife. Cursed scrolls will convert =
+a=20
+crysknife into a worm tooth. There is also a 2/3 chance of your weapon =
+being=20
+destroyed if it was more than +5 (less than -5) before reading a =
+non-cursed=20
+(cursed) scroll.</P>
+<P>Thus, the maximum safe enchantment for a weapon is +7. This is =
+obtained by=20
+reading uncursed or blessed scrolls until +5 is reached, and then =
+reading a=20
+blessed scroll. If by chance this results in +6, you should bring the=20
+enchantment back down to +5 -- by engraving one letter with the weapon =
+or by=20
+reading a cursed scroll of enchant weapon -- before trying again. Note:=20
+Engraving works only for weapons with edges, and for athames only when =
+they are=20
+cursed. Weapons may also lose enchantments when zapped with a spell of =
+drain=20
+life or used to hit a disenchanter, but may resists; artifacts will =
+resist more=20
+than ordinary weapons.</P>
+<P>The artifact Magicbane has special attack effects that decrease in =
+frequency=20
+as the enchantment is increased. See <A=20
+href=3D"http://www.steelypips.org/nethack/343/art2-343.html">art2-343.htm=
+l</A> for=20
+a discussion on why it works best when enchanted at +2.</P>
+<P>A special case occurs if you are confused while reading a scroll of =
+enchant=20
+weapon. Blessed or uncursed scrolls of enchant weapon while confused =
+will remove=20
+any rust, fire, corrosion or rot damage and erodeproof your weapon. The =
+weapon's=20
+current enchantment does not matter. In the special case of crysknives, =
+they=20
+become "fixed"; unfixed crysknives have a 100% chance of reverting to a =
+worm=20
+tooth when they no longer held by you or a monster, fixed only 10%.</P>
+<P>Reading a cursed scroll of enchant weapon while confused removes any=20
+erodeproofing but will not otherwise damage your weapon. You can also =
+choose a=20
+weapon that doesn't damage (such as one made of silver), temporarily =
+protect=20
+your weapon by applying a layer of grease from a can of grease, or #dip =
+a=20
+damaged metallic weapon into a non-cursed potion of oil to remove one =
+level of=20
+each type of damage.</P>
+<H3>Acknowledgements</H3>
+<P>Corrections and clarifications provided by Aaron Bell, Mark Bever, =
+Patrick=20
+Clot, David Corbett, Kieron Dunbar, David Grabiner, Troy Holly, Ivan, =
+Eva Myers,=20
+nyra, Pat Rankin, David Richerby, and Shaman.</P>
+<HR>
+
+<P><A href=3D"http://www.steelypips.org/nethack/343/index.html">Up to =
+the NetHack=20
+Page</A></P></BODY></HTML>
+
+------=_NextPart_000_0007_01CD190D.2F8B9B00
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/nh2.css
+
+BODY {
+	MARGIN: 1em 5% 1em 2%; FONT-FAMILY: "Times New Roman", serif; =
+BACKGROUND: #ffffff; COLOR: black
+}
+H1 {
+	COLOR: #660099
+}
+H2 {
+	COLOR: #660099
+}
+H3 {
+	COLOR: #660099
+}
+H4 {
+	COLOR: #660099
+}
+H5 {
+	COLOR: #660099
+}
+H6 {
+	COLOR: #660099
+}
+H1 {
+	FONT-STYLE: normal; FONT-SIZE: 200%; FONT-WEIGHT: bold
+}
+H2 {
+	FONT-SIZE: 158%; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 133%; FONT-WEIGHT: bold
+}
+H4 {
+	FONT-SIZE: 117%; FONT-WEIGHT: bold
+}
+A:link {
+	COLOR: #33f; FONT-WEIGHT: bold
+}
+A:visited {
+	COLOR: #90c; FONT-WEIGHT: bold
+}
+A:active {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+.mono {
+	FONT-FAMILY: Courier New, monospace
+}
+IMG.button {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0.75em 0px 0px; FLOAT: left; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+UL UL {
+	LIST-STYLE-TYPE: square
+}
+UL UL UL {
+	LIST-STYLE-TYPE: circle
+}
+OL LI {
+	MARGIN-TOP: 1em
+}
+TABLE {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+TD.color {
+	BACKGROUND-COLOR: #ccc
+}
+BLOCKQUOTE.dl {
+	MARGIN-TOP: -1em; MARGIN-BOTTOM: 0em
+}
+UL.long {
+	MARGIN-TOP: 0em
+}
+OL.soko LI {
+	MARGIN-TOP: 0em
+}
+UL.space LI {
+	MARGIN-TOP: 1em
+}
+EM.underline {
+	FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+DT {
+	MARGIN-TOP: 1em
+}
+
+------=_NextPart_000_0007_01CD190D.2F8B9B00
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.steelypips.org/nethack/343/nh2ns.css
+
+BODY {
+	MARGIN: 1em 5% 1em 2%; FONT-FAMILY: "Times New Roman", serif; =
+BACKGROUND: #ffffff; COLOR: black
+}
+H1 {
+	COLOR: #660099
+}
+H2 {
+	COLOR: #660099
+}
+H3 {
+	COLOR: #660099
+}
+H4 {
+	COLOR: #660099
+}
+H5 {
+	COLOR: #660099
+}
+H6 {
+	COLOR: #660099
+}
+H1 {
+	FONT-STYLE: normal; FONT-SIZE: 200%; FONT-WEIGHT: bold
+}
+H2 {
+	FONT-SIZE: 158%; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 133%; FONT-WEIGHT: bold
+}
+H4 {
+	FONT-SIZE: 117%; FONT-WEIGHT: bold
+}
+A:link {
+	COLOR: #33f; FONT-WEIGHT: bold
+}
+A:visited {
+	COLOR: #90c; FONT-WEIGHT: bold
+}
+A:active {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: white; COLOR: #f30; TEXT-DECORATION: none
+}
+.mono {
+	FONT-FAMILY: Courier New, monospace
+}
+IMG.button {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0.75em 0px 0px; FLOAT: left; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+UL UL {
+	LIST-STYLE-TYPE: square
+}
+UL UL UL {
+	LIST-STYLE-TYPE: circle
+}
+TD.color {
+	BACKGROUND-COLOR: #ccc
+}
+BLOCKQUOTE.dl {
+	MARGIN-TOP: -1em; MARGIN-BOTTOM: 0em
+}
+UL.long {
+	MARGIN-TOP: 0em
+}
+OL.soko LI {
+	MARGIN-TOP: 0em
+}
+EM.underline {
+	FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+DT {
+	MARGIN-TOP: 1em
+}
+
+------=_NextPart_000_0007_01CD190D.2F8B9B00--
